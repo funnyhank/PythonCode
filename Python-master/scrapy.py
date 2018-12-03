@@ -6,7 +6,7 @@ def get_sort_list():
     response.encoding = 'gbk'
     result = response.text
     reg = r'<a target="_blank\" title=\"(.*?)\" href=\"(.*?)\" class=\"clearfix stitle\">'
-    novel_url_list = re.findall(reg,result)
+    novel_url_list = re.findall(reg,result) #get novel_title & novel_url
     return novel_url_list
 
 def get_novel_url(url):
