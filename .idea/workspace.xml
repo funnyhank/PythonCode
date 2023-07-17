@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e8a9297-9be7-4b7f-8ea7-534ee6c69c6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/collate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Monthlybill/Monthlybill_CHW.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Monthlybill/Monthlybill_CHW.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="0e8a9297-9be7-4b7f-8ea7-534ee6c69c6e" name="Default Changelist" comment="add new test program" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544668883303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new test program">
+      <created>1689585238452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689585238452</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add new test program">
+      <created>1689585307187</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689585307187</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -226,7 +236,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="爬去知乎热点，保存为本地文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="爬去知乎热点，保存为本地文件" />
+    <MESSAGE value="add new test program" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new test program" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Python-master/favicon.ico">
