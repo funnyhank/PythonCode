@@ -24,7 +24,7 @@ def write_dayuse_to_excel(shtname, dfname):
     # cell_range = ws['E21':'E51']
     i = 0
     while i < len(alist):
-        ws.cell(row=i + 21, column=5, value=alist[i])
+        ws.cell(row=i + 21, column=5, value=alist.iloc[i])
         i += 1
 
 
@@ -34,7 +34,7 @@ def write_day_max_demand(shtname, dfname):
     # cell_range = ws['C21':'C51']
     i = 0
     while i < len(alist):
-        ws.cell(row=i + 21, column=3, value=alist[i])
+        ws.cell(row=i + 21, column=3, value=alist.iloc[i])
         i += 1
 
 
@@ -129,15 +129,15 @@ try:
                        )
     logger.info("CHW monthly report Successfully imported!")
     df = df.dropna()  # 删除NaN
-    df_lastmonth = pd.read_excel(filepath_lastmonth,
-                                 sheet_name='Report',
-                                 header=1,
-                                 parse_dates=['datetime']
-                                 )
-    df_lastmonth = df_lastmonth.dropna()  # 删除NaN
-
-    df = pd.concat([df_lastmonth.tail(1), df[1:]])  # 用上月最后一行替换当月第一行
-    df.reset_index(drop=True, inplace=True)
+    # df_lastmonth = pd.read_excel(filepath_lastmonth,
+    #                              sheet_name='Report',
+    #                              header=1,
+    #                              parse_dates=['datetime']
+    #                              )
+    # df_lastmonth = df_lastmonth.dropna()  # 删除NaN
+    #
+    # df = pd.concat([df_lastmonth.tail(1), df[1:]])  # 用上月最后一行替换当月第一行
+    # df.reset_index(drop=True, inplace=True)
 
     # 获取每日最大负荷QI
     df_max_daily_QI = df.groupby(pd.Grouper(key='datetime', axis=0,
@@ -196,7 +196,7 @@ try:
         'D7_QQ_1150_BTU',
         'D8_QQ_1150_BTU']
     for i, j in zip(ws_list, QQ_list):
-        write_start_value(i, df_lastmonth[j].max())
+        write_start_value(i, df[j].min())
         write_end_value(i, df[j].max())
         write_dayuse_to_excel(i, dayuse[j])
     for m, n in zip(ws_list, QI_list):

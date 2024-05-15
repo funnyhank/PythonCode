@@ -259,3 +259,157 @@ ValueError: month must be in 1..12
 '2024-01-02 09:15:10 - applog - INFO - Successfully writed hot water bill to excel'
 '2024-01-02 09:26:25 - applog - INFO - HW monthly report Successfully imported!'
 '2024-01-02 09:26:29 - applog - INFO - Successfully writed hot water bill to excel'
+'2024-08-01 08:48:18 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 08:48:18 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
+    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
+    raise ValueError(
+ValueError: Length mismatch: Expected 30 rows, received array of length 31
+'2024-08-01 08:48:35 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-08-01 08:48:35 - applog - ERROR - [Errno 2] No such file or directory: 'C:\\Users\\funny\\PycharmProjects\\rccq_monthly_bill\\202309_CHW_temp.xlsx''
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\CHW_bill_RCCQ.py", line 176, in <module>
+    wb2 = load_workbook(tmplate_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\openpyxl\reader\excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1323, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\funny\\PycharmProjects\\rccq_monthly_bill\\202309_CHW_temp.xlsx'
+'2024-08-01 08:50:34 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-08-01 08:50:35 - applog - INFO - Successfully writed chiller water bill to excel'
+'2024-08-01 08:50:48 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 08:50:49 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
+    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
+    raise ValueError(
+ValueError: Length mismatch: Expected 30 rows, received array of length 31
+'2024-08-01 08:53:50 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 08:53:51 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
+    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
+    raise ValueError(
+ValueError: Length mismatch: Expected 30 rows, received array of length 31
+'2024-08-01 08:54:21 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 08:54:22 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
+    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
+    raise ValueError(
+ValueError: Length mismatch: Expected 30 rows, received array of length 31
+'2024-08-01 08:59:42 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 08:59:42 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
+Traceback (most recent call last):
+  File "c:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
+    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
+    raise ValueError(
+ValueError: Length mismatch: Expected 30 rows, received array of length 31
+'2024-08-01 11:06:19 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:06:20 - applog - INFO - Successfully writed hot water bill to excel'
+'2024-08-01 11:07:26 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:08:25 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:09:31 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:10:03 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:10:16 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:12:31 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:12:55 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:13:13 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:14:20 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:14:44 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:15:39 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:17:17 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:18:36 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:18:49 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:19:15 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:19:31 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:20:01 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:20:13 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:20:51 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:21:14 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:22:10 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:22:39 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:23:02 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:23:16 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:23:35 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:23:51 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:24:20 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:24:47 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:25:09 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:25:17 - applog - INFO - Successfully writed hot water bill to excel'
+'2024-08-01 11:28:21 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 11:28:21 - applog - ERROR - name 'df_lastmonth' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 215, in <module>
+    write_start_value(i, df_lastmonth[j].max())
+                         ^^^^^^^^^^^^
+NameError: name 'df_lastmonth' is not defined. Did you mean: 'last_month'?
+'2024-08-01 13:33:53 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 13:33:54 - applog - INFO - Successfully writed hot water bill to excel'
+'2024-08-01 13:42:26 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-08-01 13:42:27 - applog - INFO - Successfully writed chiller water bill to excel'
+'2024-08-01 13:57:40 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-08-01 13:57:41 - applog - INFO - Successfully writed chiller water bill to excel'
+'2024-08-01 13:57:51 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 13:57:52 - applog - INFO - Successfully wrote hot water bill to excel'
+'2024-08-01 13:57:53 - applog - ERROR - (-2147023174, 'RPC 服务器不可用。', None, None)'
+Traceback (most recent call last):
+  File "HW_bill_RCCQ.py", line 255, in <module>
+    wb = app.books.open(report_path + "_HW.xlsx")
+         ^^^^^^^^^
+  File "xlwings\main.py", line 519, in books
+  File "xlwings\_xlwindows.py", line 691, in books
+  File "xlwings\_xlwindows.py", line 199, in __getattr__
+  File "win32com\client\__init__.py", line 585, in __getattr__
+  File "win32com\client\__init__.py", line 574, in _ApplyTypes_
+pywintypes.com_error: (-2147023174, 'RPC 服务器不可用。', None, None)
+'2024-08-01 16:53:46 - applog - INFO - HW monthly report Successfully imported!'
+'2024-08-01 16:53:47 - applog - INFO - Successfully wrote hot water bill to excel'
+'2024-09-02 08:18:34 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-09-02 08:18:34 - applog - INFO - Successfully writed chiller water bill to excel'
+'2024-09-02 08:18:48 - applog - INFO - HW monthly report Successfully imported!'
+'2024-09-02 08:18:49 - applog - INFO - Successfully wrote hot water bill to excel'
+'2024-09-02 08:25:32 - applog - INFO - HW monthly report Successfully imported!'
+'2024-09-02 08:25:33 - applog - INFO - Successfully wrote hot water bill to excel'
+'2024-09-02 08:26:13 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-09-02 08:26:14 - applog - INFO - Successfully writed chiller water bill to excel'
+'2024-11-01 09:17:35 - applog - ERROR - name 'path_last_month' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 114, in <module>
+    filepath_lastmonth = BASE_DIR + "\\" + path_last_month
+                                           ^^^^^^^^^^^^^^^
+NameError: name 'path_last_month' is not defined. Did you mean: 'pattern_lastMonth'?
+'2024-11-01 09:19:44 - applog - INFO - HW monthly report Successfully imported!'
+'2024-11-01 09:19:44 - applog - INFO - Successfully wrote hot water bill to excel'
+'2024-11-01 09:23:29 - applog - INFO - HW monthly report Successfully imported!'
+'2024-11-01 09:23:30 - applog - INFO - Successfully wrote hot water bill to excel'
+'2025-01-24 09:36:37 - applog - ERROR - Error occurred: Report file for 202501 not found.'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\Opti_by_AI.py", line 72, in <module>
+    raise FileNotFoundError(f"Report file for {current_date} not found.")
+FileNotFoundError: Report file for 202501 not found.
+'2025-01-24 09:38:29 - applog - INFO - HW monthly report Successfully imported!'
+'2025-01-24 09:38:30 - applog - INFO - Successfully wrote hot water bill to excel'
+'2025-01-24 09:41:09 - applog - INFO - HW monthly report Successfully imported!'
+'2025-01-24 09:41:09 - applog - INFO - Successfully wrote hot water bill to excel'
+'2025-01-24 09:41:20 - applog - ERROR - name 'path_last_month' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\CHW_bill_RCCQ.py", line 123, in <module>
+    filepath_lastmonth = BASE_DIR + "\\" + path_last_month
+                                           ^^^^^^^^^^^^^^^
+NameError: name 'path_last_month' is not defined. Did you mean: 'pattern_lastMonth'?

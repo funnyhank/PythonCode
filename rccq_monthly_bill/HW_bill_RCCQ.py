@@ -24,7 +24,7 @@ def write_dayuse_to_excel(shtname, dfname):
     # cell_range = ws['E21':'E51']
     i = 0
     while i < len(alist):
-        ws.cell(row=i + 21, column=5, value=alist[i])
+        ws.cell(row=i + 21, column=5, value=alist.iloc[i])
         i += 1
 
 
@@ -34,7 +34,7 @@ def write_day_max_demand(shtname, dfname):
     # cell_range = ws['C21':'C51']
     i = 0
     while i < len(alist):
-        ws.cell(row=i + 21, column=3, value=alist[i])
+        ws.cell(row=i + 21, column=3, value=alist.iloc[i])
         i += 1
 
 
@@ -105,13 +105,14 @@ try:
             path = f
     # 模糊查找，文件夹下含有'CHW RTU_Monthly Report_'+current_date的文件
     filepath = BASE_DIR + "\\" + path
+    # filepath = r"C:\\Users\\funny\\PycharmProjects\\rccq_monthly_bill\\HW RTU_Monthly Report_20250201000906275.xlsx"
 
     # 需要读取上一月的数据
-    pattern_lastMonth = 'HW RTU_Monthly Report_' + last_month
-    for f in files:
-        if pattern_lastMonth in f:
-            path_last_month = f
-    filepath_lastmonth = BASE_DIR + "\\" + path_last_month
+    # pattern_lastMonth = 'HW RTU_Monthly Report_' + last_month
+    # for f in files:
+    #     if pattern_lastMonth in f:
+    #         path_last_month = f
+    # filepath_lastmonth = BASE_DIR + "\\" + path_last_month
 
     df = pd.read_excel(filepath,
                        sheet_name='Report',
@@ -120,14 +121,14 @@ try:
                        )
     logger.info("HW monthly report Successfully imported!")
     df = df.dropna()  # 删除NaN
-    df_lastmonth = pd.read_excel(filepath_lastmonth,
-                                 sheet_name='Report',
-                                 header=1,
-                                 parse_dates=['datetime']
-                                 )
-    df_lastmonth = df_lastmonth.dropna()  # 删除NaN
-
-    df = pd.concat([df_lastmonth.tail(1), df[1:]])  # 用上月最后一行替换当月第一行
+    # df_lastmonth = pd.read_excel(filepath_lastmonth,
+    #                              sheet_name='Report',
+    #                              header=1,
+    #                              parse_dates=['datetime']
+    #                              )
+    # df_lastmonth = df_lastmonth.dropna()  # 删除NaN
+    #
+    # df = pd.concat([df_lastmonth.tail(1), df[1:]])  # 用上月最后一行替换当月第一行
     df.reset_index(drop=True, inplace=True)
 
     # 获取每日最大负荷QI
@@ -212,45 +213,13 @@ try:
         'H11_QI_9350_BTU',
         'H20_QI_9350_BTU']
     for i, j in zip(ws_list, QQ_list):
-        write_start_value(i, df_lastmonth[j].max())
+        write_start_value(i, df[j].min())
         write_end_value(i, df[j].max())
         write_dayuse_to_excel(i, dayuse[j])
     for m, n in zip(ws_list, QI_list):
         write_day_max_demand(m, df_max_daily_QI[n])
-    logger.info("Successfully writed hot water bill to excel")
-    # l_side = Side(style='thin', color="000000")
-    # r_side = Side(style='hair', color="000000")
-    # t_side = Side(style='hair', color="000000")
-    # b_side = Side(style='hair', color="000000")
-    # border = Border(
-    #     right=r_side,
-    #     left=l_side,
-    #     top=t_side,
-    #     bottom=b_side
-    # )
-    # ws = wb2.active
-    # for i in range(len(ws_list)):
-    #     sheet = wb2.get_sheet_by_name(ws_list[i])
-    #     for row in sheet['G21:G51']:
-    #         for cell in row:
-    #             cell.border = border
-    #     for row in sheet['G13:G16']:
-    #         for cell in row:
-    #             cell.border = border
-    #     for row in sheet['G18:G19']:
-    #         for cell in row:
-    #             cell.border = border
-    #
-    # summary_sheet = wb2['Summary']
-    # for row in summary_sheet['G8:G10']:
-    #     for cell in row:
-    #         cell.border = border
-    # for row in summary_sheet['G12:G13']:
-    #     for cell in row:
-    #         cell.border = border
-    # for row in summary_sheet['G15:G45']:
-    #     for cell in row:
-    #         cell.border = border
+    logger.info("Successfully wrote hot water bill to excel")
+
     wb2.save(report_path + "_HW.xlsx")
     wb = app.books.open(report_path + "_HW.xlsx")
     sheet_counts = wb.sheets.count

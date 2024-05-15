@@ -1,0 +1,8 @@
+database_name : 'rccqmonthlydata'
+table_name : 'dailyOAfactdata'
+host : 'localhost'
+port : 3306
+user : 'root'
+password : 'Abb1234#'
+excelpath : "C:\\Users\\funny\\Desktop\\RCCQ_OA"
+sheetsname : 'Data'

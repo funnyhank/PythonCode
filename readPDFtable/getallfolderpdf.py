@@ -19,8 +19,7 @@ for j in range(0, len(files)):
                        str(files[j]) + '.txt', mode='w', encoding='utf-8')
     # 读取PDF文档
     pdf = pb.open("C:/Users/funny/Desktop/pdf/" + str(files[j]))
-    # 绝对路径也可以这么写，下同
-    # 获取页数
+
     a = len(pdf.pages)
     print("当前页：", a)
     i = 0
