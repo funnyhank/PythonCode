@@ -26,8 +26,8 @@ for j in range(0, len(files)):
     i = 0
     for i in range(0, a):
         first_page = pdf.pages[i]
-        # print("本页：", first_page.page_number)
-        # print("-----------------------------------------")
+        print("本页：", first_page.page_number)
+        print("-----------------------------------------")
         # # 导出当前页文本
         text = first_page.extract_text()
         # print(text)
