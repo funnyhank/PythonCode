@@ -1,0 +1,29 @@
+import sys
+from PySide6.QtCore import QSize, Qt
+from PySide6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QLineEdit,QVBoxLayout,QWidget
+
+# Subclass QMainWindow to customize your application's main window
+
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+
+        self.setWindowTitle("My App")
+        self.label = QLabel()
+        self.input = QLineEdit()
+        self.input.textChanged.connect(self.label.setText)
+        layout = QVBoxLayout()
+        layout.addWidget(self.input)
+        layout.addWidget(self.label)
+        container = QWidget()
+        container.setLayout(layout)
+        # Set the central widget of the Window.
+        self.setCentralWidget(container)
+
+
+app = QApplication(sys.argv)
+window = MainWindow()
+window.show()
+app.exec()

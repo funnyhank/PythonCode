@@ -1,0 +1,261 @@
+'2023-10-07 11:25:59 - applog - INFO - ≥…π¶–¥»ÎexcelŒƒº˛-<module>'
+'2023-10-07 11:47:52 - applog - INFO - ≥…π¶–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:01:52 - applog - INFO - ≥…π¶–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:02:45 - applog - INFO - ≥…π¶–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:04:43 - applog - INFO - ≥…π¶µº»Îmonthly report£°'
+'2023-10-07 14:04:46 - applog - INFO - ≥…π¶Ω´»»ÀÆ’Àµ•–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:04:52 - applog - INFO - ≥…π¶µº»Îmonthly report£°'
+'2023-10-07 14:04:55 - applog - INFO - ≥…π¶Ω´»»ÀÆ’Àµ•–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:05:02 - applog - INFO - ≥…π¶µº»Îmonthly report£°'
+'2023-10-07 14:05:04 - applog - INFO - ≥…π¶Ω´¿‰ÀÆ’Àµ•–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:19:24 - applog - INFO - ≥…π¶µº»ÎHW monthly report£°'
+'2023-10-07 14:19:28 - applog - INFO - ≥…π¶Ω´»»ÀÆ’Àµ•–¥»ÎexcelŒƒº˛'
+'2023-10-07 14:40:46 - applog - INFO - HW monthly report Successfully imported£°'
+'2023-10-07 14:40:48 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-07 14:41:06 - applog - INFO - HW monthly report Successfully imported£°'
+'2023-10-07 14:41:10 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-07 14:55:37 - applog - INFO - HW monthly report Successfully importedÔºÅ'
+'2023-10-07 14:55:40 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-07 14:55:53 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-07 14:55:55 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-08 10:45:47 - applog - INFO - HW monthly report Successfully importedÔºÅ'
+'2023-10-08 10:45:50 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-08 10:47:33 - applog - INFO - HW monthly report Successfully importedÔºÅ'
+'2023-10-08 10:47:36 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-08 11:02:35 - applog - INFO - HW monthly report Successfully importedÔºÅ'
+'2023-10-08 11:02:44 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-08 11:02:52 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-08 11:02:55 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 09:48:21 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 09:48:23 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 09:50:36 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 09:50:38 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 09:55:32 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 09:55:33 - applog - ERROR - [Errno 2] No such file or directory: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW_temp.xlsx.xlsx''
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 157, in <module>
+    wb2 = load_workbook(tmplate_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\reader\excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\zipfile.py", line 1283, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW_temp.xlsx.xlsx'
+'2023-10-26 09:57:38 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 09:57:40 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:01:30 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:01:32 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:20:36 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:20:38 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:20:38 - applog - ERROR - slice indices must be integers or None or have an __index__ method'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 197, in <module>
+    for row in i["D1":"D59"]:
+               ~^^^^^^^^^^^^
+TypeError: slice indices must be integers or None or have an __index__ method
+'2023-10-26 10:21:48 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:21:51 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:21:51 - applog - ERROR - string indices must be integers, not 'str''
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 197, in <module>
+    for row in i['D1:D59']:
+               ~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+'2023-10-26 10:24:16 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:24:18 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:26:01 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:26:03 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:27:42 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:27:44 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:27:44 - applog - ERROR - <class 'openpyxl.styles.borders.Border'>.left should be <class 'openpyxl.styles.borders.Side'> but value is <class 'str'>'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 194, in <module>
+    border = Border(right=r_side, left="", top="", bottom="")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\styles\borders.py", line 91, in __init__
+    self.left = left
+    ^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\descriptors\base.py", line 46, in __set__
+    raise TypeError(msg)
+TypeError: <class 'openpyxl.styles.borders.Border'>.left should be <class 'openpyxl.styles.borders.Side'> but value is <class 'str'>
+'2023-10-26 10:33:14 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:33:16 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:35:01 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:35:03 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:35:03 - applog - ERROR - [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx''
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 201, in <module>
+    wb2.save(report_path + "_CHW.xlsx")
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\zipfile.py", line 1283, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx'
+'2023-10-26 10:35:24 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:35:26 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:46:49 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:46:51 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:46:51 - applog - ERROR - Workbook.get_sheet_names() takes 1 positional argument but 2 were given'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 194, in <module>
+    sheet = wb2.get_sheet_names(all_sheets[i])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\compat\__init__.py", line 38, in new_func1
+    return func1(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Workbook.get_sheet_names() takes 1 positional argument but 2 were given
+'2023-10-26 10:49:23 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:49:25 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:49:25 - applog - ERROR - list indices must be integers or slices, not str'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 193, in <module>
+    sheet = ws_list[i]
+            ~~~~~~~^^^
+TypeError: list indices must be integers or slices, not str
+'2023-10-26 10:51:00 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:51:02 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:51:02 - applog - ERROR - [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx''
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 197, in <module>
+    wb2.save(report_path + "_CHW.xlsx")
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\zipfile.py", line 1283, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx'
+'2023-10-26 10:51:43 - applog - INFO - CHW monthly report Successfully importedÔºÅ'
+'2023-10-26 10:51:45 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:54:48 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 10:54:50 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:58:22 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 10:58:24 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 10:59:32 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 10:59:34 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:00:57 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:00:59 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:05:27 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:05:29 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:05:29 - applog - ERROR - Value must be one of {'mediumDashDotDot', 'dotted', 'thick', 'hair', 'medium', 'double', 'slantDashDot', 'mediumDashDot', 'dashed', 'mediumDashed', 'dashDotDot', 'dashDot', 'thin'}'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 189, in <module>
+    b_side = Side(style="DotDotDotDotDotDot", color="000000")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\styles\borders.py", line 52, in __init__
+    self.style = style
+    ^^^^^^^^^^
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\descriptors\base.py", line 147, in __set__
+    super(NoneSet, self).__set__(instance, value)
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\descriptors\base.py", line 132, in __set__
+    raise ValueError(self.__doc__)
+ValueError: Value must be one of {'mediumDashDotDot', 'dotted', 'thick', 'hair', 'medium', 'double', 'slantDashDot', 'mediumDashDot', 'dashed', 'mediumDashed', 'dashDotDot', 'dashDot', 'thin'}
+'2023-10-26 11:06:16 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:06:18 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:07:08 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:07:10 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:10:50 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:10:52 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:14:24 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:14:26 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:15:59 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:16:01 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:17:32 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:17:34 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:19:20 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:19:23 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:20:41 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:20:43 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:23:54 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:23:56 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:24:45 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:24:48 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-26 11:26:39 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-26 11:26:41 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-27 08:47:46 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-27 08:47:48 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-27 08:55:41 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-10-27 08:55:43 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-10-27 09:00:16 - applog - INFO - HW monthly report Successfully importedÔºÅ'
+'2023-10-27 09:00:20 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-27 09:00:20 - applog - ERROR - name 'Side' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\HW_bill_RCCQ.py", line 203, in <module>
+    l_side = Side(style='thin', color="000000")
+             ^^^^
+NameError: name 'Side' is not defined
+'2023-10-27 09:01:46 - applog - INFO - HW monthly report Successfully importedÔºÅ'
+'2023-10-27 09:01:49 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-10-27 09:02:37 - applog - INFO - HW monthly report Successfully imported!'
+'2023-10-27 09:02:40 - applog - INFO - Successfully writed hot water bill to excel'
+'2023-11-01 11:08:42 - applog - ERROR - name 'path' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 98, in <module>
+    filepath = BASE_DIR + "\\" + path
+                                 ^^^^
+NameError: name 'path' is not defined
+'2023-11-01 11:11:10 - applog - ERROR - name 'path' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\HW_bill_RCCQ.py", line 94, in <module>
+    filepath = BASE_DIR + "\\" + path
+                                 ^^^^
+NameError: name 'path' is not defined
+'2023-11-01 11:12:28 - applog - ERROR - name 'path' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\HW_bill_RCCQ.py", line 94, in <module>
+    filepath = BASE_DIR + "\\" + path
+                                 ^^^^
+NameError: name 'path' is not defined
+'2023-11-01 11:13:37 - applog - ERROR - name 'path' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 98, in <module>
+    filepath = BASE_DIR + "\\" + path
+                                 ^^^^
+NameError: name 'path' is not defined
+'2023-11-01 11:15:29 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-11-01 11:15:32 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-11-01 11:15:32 - applog - ERROR - name 'app' is not defined'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 221, in <module>
+    wb = app.books.open(report_path + "_CHW.xlsx")
+         ^^^
+NameError: name 'app' is not defined
+'2023-11-01 11:17:05 - applog - INFO - CHW monthly report Successfully imported!'
+'2023-11-01 11:17:08 - applog - INFO - Successfully writed chiller water bill to excel'
+'2023-11-01 11:21:11 - applog - INFO - HW monthly report Successfully imported!'
+'2023-11-01 11:21:14 - applog - INFO - Successfully writed hot water bill to excel'
+'2024-01-02 08:32:50 - applog - ERROR - month must be in 1..12'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 78, in <module>
+    last_month = datetime.datetime(now.year, now.month - 1, 1).strftime('%Y%m')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: month must be in 1..12
+'2024-01-02 08:39:50 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-01-02 08:39:53 - applog - ERROR - month must be in 1..12'
+Traceback (most recent call last):
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 167, in <module>
+    write_date('Summary')
+  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 41, in write_date
+    ws['D6'] = datetime.datetime(now.year, now.month - 1, 1).strftime('%b %Y')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: month must be in 1..12
+'2024-01-02 09:10:55 - applog - INFO - CHW monthly report Successfully imported!'
+'2024-01-02 09:10:59 - applog - INFO - Successfully writed chiller water bill to excel'
+'2024-01-02 09:15:07 - applog - INFO - HW monthly report Successfully imported!'
+'2024-01-02 09:15:10 - applog - INFO - Successfully writed hot water bill to excel'
+'2024-01-02 09:26:25 - applog - INFO - HW monthly report Successfully imported!'
+'2024-01-02 09:26:29 - applog - INFO - Successfully writed hot water bill to excel'

@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "pyside6-code-tutorial"
+version = "0.1.0"
+description = "用代码实例讲解PySide6"
+authors = ["muzing <muzi2001@foxmail.com>"]
+license = "GPL-3.0"
+repository = "https://github.com/muziing/PySide6-Code-Tutorial"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/muziing/PySide6-Code-Tutorial/issues"
+
+# 使用清华 pypi 镜像
+[[tool.poetry.source]]
+name = "tsinghua_mirror"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "default"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyside6-essentials = "^6.2.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+isort = "^5.13.0"
+mypy = "^1.8.0"
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
