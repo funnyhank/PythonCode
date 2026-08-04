@@ -1,415 +1,322 @@
-'2023-10-07 11:25:59 - applog - INFO - �ɹ�д��excel�ļ�-<module>'
-'2023-10-07 11:47:52 - applog - INFO - �ɹ�д��excel�ļ�'
-'2023-10-07 14:01:52 - applog - INFO - �ɹ�д��excel�ļ�'
-'2023-10-07 14:02:45 - applog - INFO - �ɹ�д��excel�ļ�'
-'2023-10-07 14:04:43 - applog - INFO - �ɹ�����monthly report��'
-'2023-10-07 14:04:46 - applog - INFO - �ɹ�����ˮ�˵�д��excel�ļ�'
-'2023-10-07 14:04:52 - applog - INFO - �ɹ�����monthly report��'
-'2023-10-07 14:04:55 - applog - INFO - �ɹ�����ˮ�˵�д��excel�ļ�'
-'2023-10-07 14:05:02 - applog - INFO - �ɹ�����monthly report��'
-'2023-10-07 14:05:04 - applog - INFO - �ɹ�����ˮ�˵�д��excel�ļ�'
-'2023-10-07 14:19:24 - applog - INFO - �ɹ�����HW monthly report��'
-'2023-10-07 14:19:28 - applog - INFO - �ɹ�����ˮ�˵�д��excel�ļ�'
-'2023-10-07 14:40:46 - applog - INFO - HW monthly report Successfully imported��'
-'2023-10-07 14:40:48 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-07 14:41:06 - applog - INFO - HW monthly report Successfully imported��'
-'2023-10-07 14:41:10 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-07 14:55:37 - applog - INFO - HW monthly report Successfully imported！'
-'2023-10-07 14:55:40 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-07 14:55:53 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-07 14:55:55 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-08 10:45:47 - applog - INFO - HW monthly report Successfully imported！'
-'2023-10-08 10:45:50 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-08 10:47:33 - applog - INFO - HW monthly report Successfully imported！'
-'2023-10-08 10:47:36 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-08 11:02:35 - applog - INFO - HW monthly report Successfully imported！'
-'2023-10-08 11:02:44 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-08 11:02:52 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-08 11:02:55 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 09:48:21 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 09:48:23 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 09:50:36 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 09:50:38 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 09:55:32 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 09:55:33 - applog - ERROR - [Errno 2] No such file or directory: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW_temp.xlsx.xlsx''
+'2025-09-01 17:27:59 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-01 17:27:59 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-01 17:27:59 - applog - INFO - 报告文件中找到的列: ['datetime', 'H1_QQ_9350_BTU', 'H2_QQ_9350_BTU', 'H3_QQ_9350_BTU', 'H4_QQ_9350_BTU', 'H5_QQ_9350_BTU', 'H6_QQ_9350_BTU', 'H7_QQ_9350_BTU', 'H8_QQ_9350_BTU', 'H9_QQ_9350_BTU', 'H10_QQ_9350_BTU', 'H11_QQ_9350_BTU', 'H20_QQ_9350_BTU', 'H1_FT_9310', 'H1_FT_9310_BTU', 'H1_QI_9350_BTU', 'H1_QQ_9350_30min', 'H1_TE_9310_1', 'H1_TE_9310_1_BTU', 'H1_TE_9310_2', 'H1_TE_9310_2_BTU', 'H2_FT_9310', 'H2_FT_9310_BTU', 'H2_QI_9350_BTU', 'H2_QQ_9350_30min', 'H2_TE_9310_1', 'H2_TE_9310_1_BTU', 'H2_TE_9310_2', 'H2_TE_9310_2_BTU', 'H3_FT_9310', 'H3_FT_9310_BTU', 'H3_QI_9350_BTU', 'H3_QQ_9350_30min', 'H3_TE_9310_1', 'H3_TE_9310_1_BTU', 'H3_TE_9310_2', 'H3_TE_9310_2_BTU', 'H4_FT_9310', 'H4_FT_9310_BTU', 'H4_QI_9350_BTU', 'H4_QQ_9350_30min', 'H4_TE_9310_1', 'H4_TE_9310_1_BTU', 'H4_TE_9310_2', 'H4_TE_9310_2_BTU', 'H5_FT_9310', 'H5_FT_9310_BTU', 'H5_QI_9350_BTU', 'H5_QQ_9350_30min', 'H5_TE_9310_1', 'H5_TE_9310_1_BTU', 'H5_TE_9310_2', 'H5_TE_9310_2_BTU', 'H6_FT_9310', 'H6_FT_9310_BTU', 'H6_QI_9350_BTU', 'H6_QQ_1150_30min', 'H6_TE_9310_1', 'H6_TE_9310_1_BTU', 'H6_TE_9310_2', 'H6_TE_9310_2_BTU', 'H7_FT_9310', 'H7_FT_9310_BTU', 'H7_QI_9350_BTU', 'H7_QQ_9350_30min', 'H7_TE_9310_1', 'H7_TE_9310_1_BTU', 'H7_TE_9310_2', 'H7_TE_9310_2_BTU', 'H8_FT_9310', 'H8_FT_9310_BTU', 'H8_QI_9350_BTU', 'H8_QQ_9350_30min', 'H8_TE_9310_1', 'H8_TE_9310_1_BTU', 'H8_TE_9310_2', 'H8_TE_9310_2_BTU', 'H9_FT_9310', 'H9_FT_9310_BTU', 'H9_QI_9350_BTU', 'H9_QQ_9350_30min', 'H9_TE_9310_1', 'H9_TE_9310_1_BTU', 'H9_TE_9310_2', 'H9_TE_9310_2_BTU', 'H10_FT_9310', 'H10_FT_9310_BTU', 'H10_QI_9350_BTU', 'H10_QQ_9350_30min', 'H10_TE_9310_1', 'H10_TE_9310_1_BTU', 'H10_TE_9310_2', 'H10_TE_9310_2_BTU', 'H11_FT_9310', 'H11_FT_9310_BTU', 'H11_QI_9350_BTU', 'H11_QQ_9350_30min', 'H11_TE_9310_1', 'H11_TE_9310_1_BTU', 'H11_TE_9310_2', 'H11_TE_9310_2_BTU', 'H20_FT_9310', 'H20_FT_9310_BTU', 'H20_QI_9350_BTU', 'H20_QQ_9350_30min', 'H20_TE_9310_1', 'H20_TE_9310_1_BTU', 'H20_TE_9310_2', 'H20_TE_9310_2_BTU', 'HT_H_HH3_LD1', 'HT_H_HH3_LD1_Counter', 'HT_H_HH3_LD2', 'HT_H_HH3_LD2_Counter', 'HT_L_HH4_LD1', 'HT_L_HH4_LD1_Counter', 'HT_L_HH4_LD2', 'HT_L_HH4_LD2_Counter', 'OF_H_MH9_LD1', 'OF_H_MH9_LD1_Counter', 'OF_H_MH9_LD2', 'OF_H_MH9_LD2_Counter', 'SA_H_HH6_LD1', 'SA_H_HH6_LD1_Counter', 'SA_H_HH6_LD2', 'SA_H_HH6_LD2_Counter', 'SA_L_HH7_LD1', 'SA_L_HH7_LD1_Counter', 'SA_L_HH7_LD2', 'SA_L_HH7_LD2_Counter', 'OF_L_MH10_LD1', 'OF_L_MH10_LD1_Counter', 'OF_L_MH10_LD2', 'OF_L_MH10_LD2_Counter', 'SA_PH2_LD1', 'SA_PH2_LD1_Counter', 'SA_PH2_LD2', 'SA_PH2_LD2_Counter', 'SA_L_MH8_LD1', 'SA_L_MH8_LD1_Counter', 'SA_L_MH8_LD2', 'SA_L_MH8_LD2_Counter', 'PE_MH11_LD1', 'PE_MH11_LD1_Counter', 'PE_MH11_LD2', 'PE_MH11_LD2_Counter', 'PW_MH20_LD1', 'PW_MH20_LD1_Counter', 'PW_MH20_LD2', 'PW_MH20_LD2_Counter', 'HT_PH1_LD1', 'HT_PH1_LD1_Counter', 'HT_PH1_LD2', 'HT_PH1_LD2_Counter', 'HT_L_MH5_LD1', 'HT_L_MH5_LD1_Counter', 'HT_L_MH5_LD2', 'HT_L_MH5_LD2_Counter']'
+'2025-09-01 17:28:00 - applog - INFO - 正在处理工作表: HotelLZ PreHeat'
+'2025-09-01 17:28:00 - applog - ERROR - 处理 HW 报告时发生错误: unsupported operand type(s) for -: 'int' and 'str''
 Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 157, in <module>
-    wb2 = load_workbook(tmplate_path)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\reader\excel.py", line 344, in load_workbook
-    reader = ExcelReader(filename, read_only, keep_vba,
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
-    self.archive = _validate_archive(fn)
-                   ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
-    archive = ZipFile(filename, 'r')
-              ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\zipfile.py", line 1283, in __init__
-    self.fp = io.open(file, filemode)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW_temp.xlsx.xlsx'
-'2023-10-26 09:57:38 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 09:57:40 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:01:30 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:01:32 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:20:36 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:20:38 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:20:38 - applog - ERROR - slice indices must be integers or None or have an __index__ method'
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\Report Generator.py", line 156, in generate_report
+    daily_use = calculate_daily_consumption(df, qq_col)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\Report Generator.py", line 95, in calculate_daily_consumption
+    daily_use = daily_start.diff().dropna()
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\series.py", line 3002, in diff
+    result = algorithms.diff(self._values, periods)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1515, in diff
+    out_arr[res_indexer] = op(arr[res_indexer], arr[lag_indexer])
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for -: 'int' and 'str'
+'2025-09-01 17:28:00 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-01 17:28:01 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-01 17:28:01 - applog - INFO - 报告文件中找到的列: ['datetime', 'D1_QQ_1150_BTU', 'D2_QQ_1150_BTU', 'D3_QQ_1150_BTU', 'D4_QQ_1150_BTU', 'D5_QQ_1150_BTU', 'D6_QQ_1150_BTU', 'D7_QQ_1150_BTU', 'D8_QQ_1150_BTU', 'D1_FT_1110', 'D1_FT_1110_BTU', 'D1_QI_1150_BTU', 'D1_QQ_1150_30min', 'D1_TE_1110_1', 'D1_TE_1110_1_BTU', 'D1_TE_1110_2', 'D1_TE_1110_2_BTU', 'D2_FT_1110', 'D2_FT_1110_BTU', 'D2_QI_1150_BTU', 'D2_QQ_1150_30min', 'D2_TT_1110_1', 'D2_TT_1110_1_BTU', 'D2_TT_1110_2', 'D2_TT_1110_2_BTU', 'D3_FT_1110', 'D3_FT_1110_BTU', 'D3_QI_1150_BTU', 'D3_QQ_1150_30min', 'D3_TT_1110_1', 'D3_TT_1110_1_BTU', 'D3_TT_1110_2', 'D3_TT_1110_2_BTU', 'D4_FT_1110', 'D4_FT_1110_BTU', 'D4_QI_1150_BTU', 'D4_QQ_1150_30min', 'D4_TT_1110_1', 'D4_TT_1110_1_BTU', 'D4_TT_1110_2', 'D4_TT_1110_2_BTU', 'D5_FT_1110', 'D5_FT_1110_BTU', 'D5_QI_1150_BTU', 'D5_QQ_1150_30min', 'D5_TT_1110_1', 'D5_TT_1110_1_BTU', 'D5_TT_1110_2', 'D5_TT_1110_2_BTU', 'D6_FT_1110', 'D6_FT_1110_BTU', 'D6_QI_1150_BTU', 'D6_QQ_1150_30min', 'D6_TE_1110_1_BTU', 'D6_TE_1110_2_BTU', 'D6_TT_1110_1', 'D6_TT_1110_2', 'D7_FT_1110', 'D7_FT_1110_1_BTU', 'D7_QI_1150_1_BTU', 'D7_QQ_1150_1_30min', 'D7_TE_1110_1', 'D7_TE_1110_1_BTU', 'D7_TE_1110_2', 'D7_TE_1110_2_BTU', 'D8_FT_1110', 'D8_FT_1110_BTU', 'D8_QI_1150_2_BTU', 'D8_QQ_1150_2_30min', 'D8_TE_1110_1', 'D8_TE_1110_1_BTU', 'D8_TE_1110_2', 'D8_TE_1110_2_BTU', 'P_E_LD1', 'P_E_LD1_Counter', 'P_E_LD2', 'P_E_LD2_Counter', 'P_W_LD1', 'P_W_LD1_Counter', 'P_W_LD2', 'P_W_LD2_Counter', 'HT_H_LD1', 'HT_H_LD1_Counter', 'HT_H_LD2', 'HT_H_LD2_Counter', 'HT_L_LD1', 'HT_L_LD1_Counter', 'HT_L_LD2', 'HT_L_LD2_Counter', 'OF_H_LD1', 'OF_H_LD1_Counter', 'OF_H_LD2', 'OF_H_LD2_Counter', 'OF_L_LD1', 'OF_L_LD1_Counter', 'OF_L_LD2', 'OF_L_LD2_Counter', 'SA_H_LD1', 'SA_H_LD1_Counter', 'SA_H_LD2', 'SA_H_LD2_Counter', 'SA_L_LD1', 'SA_L_LD1_Counter', 'SA_L_LD2', 'SA_L_LD2_Counter']'
+'2025-09-01 17:28:01 - applog - INFO - 正在处理工作表: PodiumE'
+'2025-09-01 17:28:01 - applog - ERROR - 处理 CHW 报告时发生错误: unsupported operand type(s) for -: 'int' and 'str''
 Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 197, in <module>
-    for row in i["D1":"D59"]:
-               ~^^^^^^^^^^^^
-TypeError: slice indices must be integers or None or have an __index__ method
-'2023-10-26 10:21:48 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:21:51 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:21:51 - applog - ERROR - string indices must be integers, not 'str''
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\Report Generator.py", line 156, in generate_report
+    daily_use = calculate_daily_consumption(df, qq_col)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\Report Generator.py", line 95, in calculate_daily_consumption
+    daily_use = daily_start.diff().dropna()
+                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\series.py", line 3002, in diff
+    result = algorithms.diff(self._values, periods)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\algorithms.py", line 1515, in diff
+    out_arr[res_indexer] = op(arr[res_indexer], arr[lag_indexer])
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for -: 'int' and 'str'
+'2025-09-01 17:29:33 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-01 17:29:33 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-01 17:29:33 - applog - INFO - 报告文件中找到的列: ['datetime', 'H1_QQ_9350_BTU', 'H2_QQ_9350_BTU', 'H3_QQ_9350_BTU', 'H4_QQ_9350_BTU', 'H5_QQ_9350_BTU', 'H6_QQ_9350_BTU', 'H7_QQ_9350_BTU', 'H8_QQ_9350_BTU', 'H9_QQ_9350_BTU', 'H10_QQ_9350_BTU', 'H11_QQ_9350_BTU', 'H20_QQ_9350_BTU', 'H1_FT_9310', 'H1_FT_9310_BTU', 'H1_QI_9350_BTU', 'H1_QQ_9350_30min', 'H1_TE_9310_1', 'H1_TE_9310_1_BTU', 'H1_TE_9310_2', 'H1_TE_9310_2_BTU', 'H2_FT_9310', 'H2_FT_9310_BTU', 'H2_QI_9350_BTU', 'H2_QQ_9350_30min', 'H2_TE_9310_1', 'H2_TE_9310_1_BTU', 'H2_TE_9310_2', 'H2_TE_9310_2_BTU', 'H3_FT_9310', 'H3_FT_9310_BTU', 'H3_QI_9350_BTU', 'H3_QQ_9350_30min', 'H3_TE_9310_1', 'H3_TE_9310_1_BTU', 'H3_TE_9310_2', 'H3_TE_9310_2_BTU', 'H4_FT_9310', 'H4_FT_9310_BTU', 'H4_QI_9350_BTU', 'H4_QQ_9350_30min', 'H4_TE_9310_1', 'H4_TE_9310_1_BTU', 'H4_TE_9310_2', 'H4_TE_9310_2_BTU', 'H5_FT_9310', 'H5_FT_9310_BTU', 'H5_QI_9350_BTU', 'H5_QQ_9350_30min', 'H5_TE_9310_1', 'H5_TE_9310_1_BTU', 'H5_TE_9310_2', 'H5_TE_9310_2_BTU', 'H6_FT_9310', 'H6_FT_9310_BTU', 'H6_QI_9350_BTU', 'H6_QQ_1150_30min', 'H6_TE_9310_1', 'H6_TE_9310_1_BTU', 'H6_TE_9310_2', 'H6_TE_9310_2_BTU', 'H7_FT_9310', 'H7_FT_9310_BTU', 'H7_QI_9350_BTU', 'H7_QQ_9350_30min', 'H7_TE_9310_1', 'H7_TE_9310_1_BTU', 'H7_TE_9310_2', 'H7_TE_9310_2_BTU', 'H8_FT_9310', 'H8_FT_9310_BTU', 'H8_QI_9350_BTU', 'H8_QQ_9350_30min', 'H8_TE_9310_1', 'H8_TE_9310_1_BTU', 'H8_TE_9310_2', 'H8_TE_9310_2_BTU', 'H9_FT_9310', 'H9_FT_9310_BTU', 'H9_QI_9350_BTU', 'H9_QQ_9350_30min', 'H9_TE_9310_1', 'H9_TE_9310_1_BTU', 'H9_TE_9310_2', 'H9_TE_9310_2_BTU', 'H10_FT_9310', 'H10_FT_9310_BTU', 'H10_QI_9350_BTU', 'H10_QQ_9350_30min', 'H10_TE_9310_1', 'H10_TE_9310_1_BTU', 'H10_TE_9310_2', 'H10_TE_9310_2_BTU', 'H11_FT_9310', 'H11_FT_9310_BTU', 'H11_QI_9350_BTU', 'H11_QQ_9350_30min', 'H11_TE_9310_1', 'H11_TE_9310_1_BTU', 'H11_TE_9310_2', 'H11_TE_9310_2_BTU', 'H20_FT_9310', 'H20_FT_9310_BTU', 'H20_QI_9350_BTU', 'H20_QQ_9350_30min', 'H20_TE_9310_1', 'H20_TE_9310_1_BTU', 'H20_TE_9310_2', 'H20_TE_9310_2_BTU', 'HT_H_HH3_LD1', 'HT_H_HH3_LD1_Counter', 'HT_H_HH3_LD2', 'HT_H_HH3_LD2_Counter', 'HT_L_HH4_LD1', 'HT_L_HH4_LD1_Counter', 'HT_L_HH4_LD2', 'HT_L_HH4_LD2_Counter', 'OF_H_MH9_LD1', 'OF_H_MH9_LD1_Counter', 'OF_H_MH9_LD2', 'OF_H_MH9_LD2_Counter', 'SA_H_HH6_LD1', 'SA_H_HH6_LD1_Counter', 'SA_H_HH6_LD2', 'SA_H_HH6_LD2_Counter', 'SA_L_HH7_LD1', 'SA_L_HH7_LD1_Counter', 'SA_L_HH7_LD2', 'SA_L_HH7_LD2_Counter', 'OF_L_MH10_LD1', 'OF_L_MH10_LD1_Counter', 'OF_L_MH10_LD2', 'OF_L_MH10_LD2_Counter', 'SA_PH2_LD1', 'SA_PH2_LD1_Counter', 'SA_PH2_LD2', 'SA_PH2_LD2_Counter', 'SA_L_MH8_LD1', 'SA_L_MH8_LD1_Counter', 'SA_L_MH8_LD2', 'SA_L_MH8_LD2_Counter', 'PE_MH11_LD1', 'PE_MH11_LD1_Counter', 'PE_MH11_LD2', 'PE_MH11_LD2_Counter', 'PW_MH20_LD1', 'PW_MH20_LD1_Counter', 'PW_MH20_LD2', 'PW_MH20_LD2_Counter', 'HT_PH1_LD1', 'HT_PH1_LD1_Counter', 'HT_PH1_LD2', 'HT_PH1_LD2_Counter', 'HT_L_MH5_LD1', 'HT_L_MH5_LD1_Counter', 'HT_L_MH5_LD2', 'HT_L_MH5_LD2_Counter']'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: HotelLZ PreHeat'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: SvcAptLZ PreHeat'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: HotelHZ HT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: HotelLZ HT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: HotelLZ MT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: SvcAptHZ HT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: SvcAptLZ HT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: SvcAptLZ MT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: OfficeHZ MT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: OfficeLZ MT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: PodiumE MT'
+'2025-09-01 17:29:34 - applog - INFO - 正在处理工作表: PodiumW MT'
+'2025-09-01 17:29:35 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-01 17:29:35 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-01 17:29:35 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-01 17:29:35 - applog - INFO - 报告文件中找到的列: ['datetime', 'D1_QQ_1150_BTU', 'D2_QQ_1150_BTU', 'D3_QQ_1150_BTU', 'D4_QQ_1150_BTU', 'D5_QQ_1150_BTU', 'D6_QQ_1150_BTU', 'D7_QQ_1150_BTU', 'D8_QQ_1150_BTU', 'D1_FT_1110', 'D1_FT_1110_BTU', 'D1_QI_1150_BTU', 'D1_QQ_1150_30min', 'D1_TE_1110_1', 'D1_TE_1110_1_BTU', 'D1_TE_1110_2', 'D1_TE_1110_2_BTU', 'D2_FT_1110', 'D2_FT_1110_BTU', 'D2_QI_1150_BTU', 'D2_QQ_1150_30min', 'D2_TT_1110_1', 'D2_TT_1110_1_BTU', 'D2_TT_1110_2', 'D2_TT_1110_2_BTU', 'D3_FT_1110', 'D3_FT_1110_BTU', 'D3_QI_1150_BTU', 'D3_QQ_1150_30min', 'D3_TT_1110_1', 'D3_TT_1110_1_BTU', 'D3_TT_1110_2', 'D3_TT_1110_2_BTU', 'D4_FT_1110', 'D4_FT_1110_BTU', 'D4_QI_1150_BTU', 'D4_QQ_1150_30min', 'D4_TT_1110_1', 'D4_TT_1110_1_BTU', 'D4_TT_1110_2', 'D4_TT_1110_2_BTU', 'D5_FT_1110', 'D5_FT_1110_BTU', 'D5_QI_1150_BTU', 'D5_QQ_1150_30min', 'D5_TT_1110_1', 'D5_TT_1110_1_BTU', 'D5_TT_1110_2', 'D5_TT_1110_2_BTU', 'D6_FT_1110', 'D6_FT_1110_BTU', 'D6_QI_1150_BTU', 'D6_QQ_1150_30min', 'D6_TE_1110_1_BTU', 'D6_TE_1110_2_BTU', 'D6_TT_1110_1', 'D6_TT_1110_2', 'D7_FT_1110', 'D7_FT_1110_1_BTU', 'D7_QI_1150_1_BTU', 'D7_QQ_1150_1_30min', 'D7_TE_1110_1', 'D7_TE_1110_1_BTU', 'D7_TE_1110_2', 'D7_TE_1110_2_BTU', 'D8_FT_1110', 'D8_FT_1110_BTU', 'D8_QI_1150_2_BTU', 'D8_QQ_1150_2_30min', 'D8_TE_1110_1', 'D8_TE_1110_1_BTU', 'D8_TE_1110_2', 'D8_TE_1110_2_BTU', 'P_E_LD1', 'P_E_LD1_Counter', 'P_E_LD2', 'P_E_LD2_Counter', 'P_W_LD1', 'P_W_LD1_Counter', 'P_W_LD2', 'P_W_LD2_Counter', 'HT_H_LD1', 'HT_H_LD1_Counter', 'HT_H_LD2', 'HT_H_LD2_Counter', 'HT_L_LD1', 'HT_L_LD1_Counter', 'HT_L_LD2', 'HT_L_LD2_Counter', 'OF_H_LD1', 'OF_H_LD1_Counter', 'OF_H_LD2', 'OF_H_LD2_Counter', 'OF_L_LD1', 'OF_L_LD1_Counter', 'OF_L_LD2', 'OF_L_LD2_Counter', 'SA_H_LD1', 'SA_H_LD1_Counter', 'SA_H_LD2', 'SA_H_LD2_Counter', 'SA_L_LD1', 'SA_L_LD1_Counter', 'SA_L_LD2', 'SA_L_LD2_Counter']'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: PodiumE'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: PodiumW'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: HotelHZ'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: HotelLZ'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: OfficeHZ'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: OfficeLZ'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: SvcAptHZ'
+'2025-09-01 17:29:36 - applog - INFO - 正在处理工作表: SvcAptLZ'
+'2025-09-01 17:29:36 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-01 17:30:25 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-01 17:30:26 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-01 17:30:26 - applog - INFO - 报告文件中找到的列: ['datetime', 'H1_QQ_9350_BTU', 'H2_QQ_9350_BTU', 'H3_QQ_9350_BTU', 'H4_QQ_9350_BTU', 'H5_QQ_9350_BTU', 'H6_QQ_9350_BTU', 'H7_QQ_9350_BTU', 'H8_QQ_9350_BTU', 'H9_QQ_9350_BTU', 'H10_QQ_9350_BTU', 'H11_QQ_9350_BTU', 'H20_QQ_9350_BTU', 'H1_FT_9310', 'H1_FT_9310_BTU', 'H1_QI_9350_BTU', 'H1_QQ_9350_30min', 'H1_TE_9310_1', 'H1_TE_9310_1_BTU', 'H1_TE_9310_2', 'H1_TE_9310_2_BTU', 'H2_FT_9310', 'H2_FT_9310_BTU', 'H2_QI_9350_BTU', 'H2_QQ_9350_30min', 'H2_TE_9310_1', 'H2_TE_9310_1_BTU', 'H2_TE_9310_2', 'H2_TE_9310_2_BTU', 'H3_FT_9310', 'H3_FT_9310_BTU', 'H3_QI_9350_BTU', 'H3_QQ_9350_30min', 'H3_TE_9310_1', 'H3_TE_9310_1_BTU', 'H3_TE_9310_2', 'H3_TE_9310_2_BTU', 'H4_FT_9310', 'H4_FT_9310_BTU', 'H4_QI_9350_BTU', 'H4_QQ_9350_30min', 'H4_TE_9310_1', 'H4_TE_9310_1_BTU', 'H4_TE_9310_2', 'H4_TE_9310_2_BTU', 'H5_FT_9310', 'H5_FT_9310_BTU', 'H5_QI_9350_BTU', 'H5_QQ_9350_30min', 'H5_TE_9310_1', 'H5_TE_9310_1_BTU', 'H5_TE_9310_2', 'H5_TE_9310_2_BTU', 'H6_FT_9310', 'H6_FT_9310_BTU', 'H6_QI_9350_BTU', 'H6_QQ_1150_30min', 'H6_TE_9310_1', 'H6_TE_9310_1_BTU', 'H6_TE_9310_2', 'H6_TE_9310_2_BTU', 'H7_FT_9310', 'H7_FT_9310_BTU', 'H7_QI_9350_BTU', 'H7_QQ_9350_30min', 'H7_TE_9310_1', 'H7_TE_9310_1_BTU', 'H7_TE_9310_2', 'H7_TE_9310_2_BTU', 'H8_FT_9310', 'H8_FT_9310_BTU', 'H8_QI_9350_BTU', 'H8_QQ_9350_30min', 'H8_TE_9310_1', 'H8_TE_9310_1_BTU', 'H8_TE_9310_2', 'H8_TE_9310_2_BTU', 'H9_FT_9310', 'H9_FT_9310_BTU', 'H9_QI_9350_BTU', 'H9_QQ_9350_30min', 'H9_TE_9310_1', 'H9_TE_9310_1_BTU', 'H9_TE_9310_2', 'H9_TE_9310_2_BTU', 'H10_FT_9310', 'H10_FT_9310_BTU', 'H10_QI_9350_BTU', 'H10_QQ_9350_30min', 'H10_TE_9310_1', 'H10_TE_9310_1_BTU', 'H10_TE_9310_2', 'H10_TE_9310_2_BTU', 'H11_FT_9310', 'H11_FT_9310_BTU', 'H11_QI_9350_BTU', 'H11_QQ_9350_30min', 'H11_TE_9310_1', 'H11_TE_9310_1_BTU', 'H11_TE_9310_2', 'H11_TE_9310_2_BTU', 'H20_FT_9310', 'H20_FT_9310_BTU', 'H20_QI_9350_BTU', 'H20_QQ_9350_30min', 'H20_TE_9310_1', 'H20_TE_9310_1_BTU', 'H20_TE_9310_2', 'H20_TE_9310_2_BTU', 'HT_H_HH3_LD1', 'HT_H_HH3_LD1_Counter', 'HT_H_HH3_LD2', 'HT_H_HH3_LD2_Counter', 'HT_L_HH4_LD1', 'HT_L_HH4_LD1_Counter', 'HT_L_HH4_LD2', 'HT_L_HH4_LD2_Counter', 'OF_H_MH9_LD1', 'OF_H_MH9_LD1_Counter', 'OF_H_MH9_LD2', 'OF_H_MH9_LD2_Counter', 'SA_H_HH6_LD1', 'SA_H_HH6_LD1_Counter', 'SA_H_HH6_LD2', 'SA_H_HH6_LD2_Counter', 'SA_L_HH7_LD1', 'SA_L_HH7_LD1_Counter', 'SA_L_HH7_LD2', 'SA_L_HH7_LD2_Counter', 'OF_L_MH10_LD1', 'OF_L_MH10_LD1_Counter', 'OF_L_MH10_LD2', 'OF_L_MH10_LD2_Counter', 'SA_PH2_LD1', 'SA_PH2_LD1_Counter', 'SA_PH2_LD2', 'SA_PH2_LD2_Counter', 'SA_L_MH8_LD1', 'SA_L_MH8_LD1_Counter', 'SA_L_MH8_LD2', 'SA_L_MH8_LD2_Counter', 'PE_MH11_LD1', 'PE_MH11_LD1_Counter', 'PE_MH11_LD2', 'PE_MH11_LD2_Counter', 'PW_MH20_LD1', 'PW_MH20_LD1_Counter', 'PW_MH20_LD2', 'PW_MH20_LD2_Counter', 'HT_PH1_LD1', 'HT_PH1_LD1_Counter', 'HT_PH1_LD2', 'HT_PH1_LD2_Counter', 'HT_L_MH5_LD1', 'HT_L_MH5_LD1_Counter', 'HT_L_MH5_LD2', 'HT_L_MH5_LD2_Counter']'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: HotelLZ PreHeat'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: SvcAptLZ PreHeat'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: HotelHZ HT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: HotelLZ HT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: HotelLZ MT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: SvcAptHZ HT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: SvcAptLZ HT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: SvcAptLZ MT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: OfficeHZ MT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: OfficeLZ MT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: PodiumE MT'
+'2025-09-01 17:30:27 - applog - INFO - 正在处理工作表: PodiumW MT'
+'2025-09-01 17:30:27 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-01 17:30:27 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-01 17:30:28 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-01 17:30:28 - applog - INFO - 报告文件中找到的列: ['datetime', 'D1_QQ_1150_BTU', 'D2_QQ_1150_BTU', 'D3_QQ_1150_BTU', 'D4_QQ_1150_BTU', 'D5_QQ_1150_BTU', 'D6_QQ_1150_BTU', 'D7_QQ_1150_BTU', 'D8_QQ_1150_BTU', 'D1_FT_1110', 'D1_FT_1110_BTU', 'D1_QI_1150_BTU', 'D1_QQ_1150_30min', 'D1_TE_1110_1', 'D1_TE_1110_1_BTU', 'D1_TE_1110_2', 'D1_TE_1110_2_BTU', 'D2_FT_1110', 'D2_FT_1110_BTU', 'D2_QI_1150_BTU', 'D2_QQ_1150_30min', 'D2_TT_1110_1', 'D2_TT_1110_1_BTU', 'D2_TT_1110_2', 'D2_TT_1110_2_BTU', 'D3_FT_1110', 'D3_FT_1110_BTU', 'D3_QI_1150_BTU', 'D3_QQ_1150_30min', 'D3_TT_1110_1', 'D3_TT_1110_1_BTU', 'D3_TT_1110_2', 'D3_TT_1110_2_BTU', 'D4_FT_1110', 'D4_FT_1110_BTU', 'D4_QI_1150_BTU', 'D4_QQ_1150_30min', 'D4_TT_1110_1', 'D4_TT_1110_1_BTU', 'D4_TT_1110_2', 'D4_TT_1110_2_BTU', 'D5_FT_1110', 'D5_FT_1110_BTU', 'D5_QI_1150_BTU', 'D5_QQ_1150_30min', 'D5_TT_1110_1', 'D5_TT_1110_1_BTU', 'D5_TT_1110_2', 'D5_TT_1110_2_BTU', 'D6_FT_1110', 'D6_FT_1110_BTU', 'D6_QI_1150_BTU', 'D6_QQ_1150_30min', 'D6_TE_1110_1_BTU', 'D6_TE_1110_2_BTU', 'D6_TT_1110_1', 'D6_TT_1110_2', 'D7_FT_1110', 'D7_FT_1110_1_BTU', 'D7_QI_1150_1_BTU', 'D7_QQ_1150_1_30min', 'D7_TE_1110_1', 'D7_TE_1110_1_BTU', 'D7_TE_1110_2', 'D7_TE_1110_2_BTU', 'D8_FT_1110', 'D8_FT_1110_BTU', 'D8_QI_1150_2_BTU', 'D8_QQ_1150_2_30min', 'D8_TE_1110_1', 'D8_TE_1110_1_BTU', 'D8_TE_1110_2', 'D8_TE_1110_2_BTU', 'P_E_LD1', 'P_E_LD1_Counter', 'P_E_LD2', 'P_E_LD2_Counter', 'P_W_LD1', 'P_W_LD1_Counter', 'P_W_LD2', 'P_W_LD2_Counter', 'HT_H_LD1', 'HT_H_LD1_Counter', 'HT_H_LD2', 'HT_H_LD2_Counter', 'HT_L_LD1', 'HT_L_LD1_Counter', 'HT_L_LD2', 'HT_L_LD2_Counter', 'OF_H_LD1', 'OF_H_LD1_Counter', 'OF_H_LD2', 'OF_H_LD2_Counter', 'OF_L_LD1', 'OF_L_LD1_Counter', 'OF_L_LD2', 'OF_L_LD2_Counter', 'SA_H_LD1', 'SA_H_LD1_Counter', 'SA_H_LD2', 'SA_H_LD2_Counter', 'SA_L_LD1', 'SA_L_LD1_Counter', 'SA_L_LD2', 'SA_L_LD2_Counter']'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: PodiumE'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: PodiumW'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: HotelHZ'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: HotelLZ'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: OfficeHZ'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: OfficeLZ'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: SvcAptHZ'
+'2025-09-01 17:30:28 - applog - INFO - 正在处理工作表: SvcAptLZ'
+'2025-09-01 17:30:29 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-01 17:37:21 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-01 17:37:21 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-01 17:37:22 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-01 17:37:22 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-01 17:37:23 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-01 17:37:24 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-01 17:39:41 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-01 17:39:41 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-01 17:39:43 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-01 17:39:43 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-01 17:39:43 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-01 17:39:44 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 08:16:36 - applog - ERROR - name 'path_last_month' is not defined'
 Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 197, in <module>
-    for row in i['D1:D59']:
-               ~^^^^^^^^^^
-TypeError: string indices must be integers, not 'str'
-'2023-10-26 10:24:16 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:24:18 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:26:01 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:26:03 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:27:42 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:27:44 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:27:44 - applog - ERROR - <class 'openpyxl.styles.borders.Border'>.left should be <class 'openpyxl.styles.borders.Side'> but value is <class 'str'>'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 194, in <module>
-    border = Border(right=r_side, left="", top="", bottom="")
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\styles\borders.py", line 91, in __init__
-    self.left = left
-    ^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\descriptors\base.py", line 46, in __set__
-    raise TypeError(msg)
-TypeError: <class 'openpyxl.styles.borders.Border'>.left should be <class 'openpyxl.styles.borders.Side'> but value is <class 'str'>
-'2023-10-26 10:33:14 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:33:16 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:35:01 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:35:03 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:35:03 - applog - ERROR - [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx''
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 201, in <module>
-    wb2.save(report_path + "_CHW.xlsx")
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
-    save_workbook(self, filename)
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
-    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\zipfile.py", line 1283, in __init__
-    self.fp = io.open(file, filemode)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx'
-'2023-10-26 10:35:24 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:35:26 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:46:49 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:46:51 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:46:51 - applog - ERROR - Workbook.get_sheet_names() takes 1 positional argument but 2 were given'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 194, in <module>
-    sheet = wb2.get_sheet_names(all_sheets[i])
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\compat\__init__.py", line 38, in new_func1
-    return func1(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^
-TypeError: Workbook.get_sheet_names() takes 1 positional argument but 2 were given
-'2023-10-26 10:49:23 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:49:25 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:49:25 - applog - ERROR - list indices must be integers or slices, not str'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 193, in <module>
-    sheet = ws_list[i]
-            ~~~~~~~^^^
-TypeError: list indices must be integers or slices, not str
-'2023-10-26 10:51:00 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:51:02 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:51:02 - applog - ERROR - [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx''
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 197, in <module>
-    wb2.save(report_path + "_CHW.xlsx")
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
-    save_workbook(self, filename)
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
-    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python311\Lib\zipfile.py", line 1283, in __init__
-    self.fp = io.open(file, filemode)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: 'C:\\Users\\hank\\PycharmProjects\\pythonProject\\MonthlyBill_RCCQ\\202309_CHW.xlsx'
-'2023-10-26 10:51:43 - applog - INFO - CHW monthly report Successfully imported！'
-'2023-10-26 10:51:45 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:54:48 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 10:54:50 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:58:22 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 10:58:24 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 10:59:32 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 10:59:34 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:00:57 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:00:59 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:05:27 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:05:29 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:05:29 - applog - ERROR - Value must be one of {'mediumDashDotDot', 'dotted', 'thick', 'hair', 'medium', 'double', 'slantDashDot', 'mediumDashDot', 'dashed', 'mediumDashed', 'dashDotDot', 'dashDot', 'thin'}'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 189, in <module>
-    b_side = Side(style="DotDotDotDotDotDot", color="000000")
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\styles\borders.py", line 52, in __init__
-    self.style = style
-    ^^^^^^^^^^
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\descriptors\base.py", line 147, in __set__
-    super(NoneSet, self).__set__(instance, value)
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\venv\Lib\site-packages\openpyxl\descriptors\base.py", line 132, in __set__
-    raise ValueError(self.__doc__)
-ValueError: Value must be one of {'mediumDashDotDot', 'dotted', 'thick', 'hair', 'medium', 'double', 'slantDashDot', 'mediumDashDot', 'dashed', 'mediumDashed', 'dashDotDot', 'dashDot', 'thin'}
-'2023-10-26 11:06:16 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:06:18 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:07:08 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:07:10 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:10:50 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:10:52 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:14:24 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:14:26 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:15:59 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:16:01 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:17:32 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:17:34 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:19:20 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:19:23 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:20:41 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:20:43 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:23:54 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:23:56 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:24:45 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:24:48 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-26 11:26:39 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-26 11:26:41 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-27 08:47:46 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-27 08:47:48 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-27 08:55:41 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-10-27 08:55:43 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-10-27 09:00:16 - applog - INFO - HW monthly report Successfully imported！'
-'2023-10-27 09:00:20 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-27 09:00:20 - applog - ERROR - name 'Side' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\HW_bill_RCCQ.py", line 203, in <module>
-    l_side = Side(style='thin', color="000000")
-             ^^^^
-NameError: name 'Side' is not defined
-'2023-10-27 09:01:46 - applog - INFO - HW monthly report Successfully imported！'
-'2023-10-27 09:01:49 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-10-27 09:02:37 - applog - INFO - HW monthly report Successfully imported!'
-'2023-10-27 09:02:40 - applog - INFO - Successfully writed hot water bill to excel'
-'2023-11-01 11:08:42 - applog - ERROR - name 'path' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 98, in <module>
-    filepath = BASE_DIR + "\\" + path
-                                 ^^^^
-NameError: name 'path' is not defined
-'2023-11-01 11:11:10 - applog - ERROR - name 'path' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\HW_bill_RCCQ.py", line 94, in <module>
-    filepath = BASE_DIR + "\\" + path
-                                 ^^^^
-NameError: name 'path' is not defined
-'2023-11-01 11:12:28 - applog - ERROR - name 'path' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\HW_bill_RCCQ.py", line 94, in <module>
-    filepath = BASE_DIR + "\\" + path
-                                 ^^^^
-NameError: name 'path' is not defined
-'2023-11-01 11:13:37 - applog - ERROR - name 'path' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 98, in <module>
-    filepath = BASE_DIR + "\\" + path
-                                 ^^^^
-NameError: name 'path' is not defined
-'2023-11-01 11:15:29 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-11-01 11:15:32 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-11-01 11:15:32 - applog - ERROR - name 'app' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 221, in <module>
-    wb = app.books.open(report_path + "_CHW.xlsx")
-         ^^^
-NameError: name 'app' is not defined
-'2023-11-01 11:17:05 - applog - INFO - CHW monthly report Successfully imported!'
-'2023-11-01 11:17:08 - applog - INFO - Successfully writed chiller water bill to excel'
-'2023-11-01 11:21:11 - applog - INFO - HW monthly report Successfully imported!'
-'2023-11-01 11:21:14 - applog - INFO - Successfully writed hot water bill to excel'
-'2024-01-02 08:32:50 - applog - ERROR - month must be in 1..12'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 78, in <module>
-    last_month = datetime.datetime(now.year, now.month - 1, 1).strftime('%Y%m')
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: month must be in 1..12
-'2024-01-02 08:39:50 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-01-02 08:39:53 - applog - ERROR - month must be in 1..12'
-Traceback (most recent call last):
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 167, in <module>
-    write_date('Summary')
-  File "C:\Users\hank\PycharmProjects\pythonProject\MonthlyBill_RCCQ\CHW_bill_RCCQ.py", line 41, in write_date
-    ws['D6'] = datetime.datetime(now.year, now.month - 1, 1).strftime('%b %Y')
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: month must be in 1..12
-'2024-01-02 09:10:55 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-01-02 09:10:59 - applog - INFO - Successfully writed chiller water bill to excel'
-'2024-01-02 09:15:07 - applog - INFO - HW monthly report Successfully imported!'
-'2024-01-02 09:15:10 - applog - INFO - Successfully writed hot water bill to excel'
-'2024-01-02 09:26:25 - applog - INFO - HW monthly report Successfully imported!'
-'2024-01-02 09:26:29 - applog - INFO - Successfully writed hot water bill to excel'
-'2024-08-01 08:48:18 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 08:48:18 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
-    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
-    raise ValueError(
-ValueError: Length mismatch: Expected 30 rows, received array of length 31
-'2024-08-01 08:48:35 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-08-01 08:48:35 - applog - ERROR - [Errno 2] No such file or directory: 'C:\\Users\\funny\\PycharmProjects\\rccq_monthly_bill\\202309_CHW_temp.xlsx''
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\CHW_bill_RCCQ.py", line 176, in <module>
-    wb2 = load_workbook(tmplate_path)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\openpyxl\reader\excel.py", line 344, in load_workbook
-    reader = ExcelReader(filename, read_only, keep_vba,
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
-    self.archive = _validate_archive(fn)
-                   ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
-    archive = ZipFile(filename, 'r')
-              ^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\funny\AppData\Local\Programs\Python\Python312\Lib\zipfile\__init__.py", line 1323, in __init__
-    self.fp = io.open(file, filemode)
-              ^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\funny\\PycharmProjects\\rccq_monthly_bill\\202309_CHW_temp.xlsx'
-'2024-08-01 08:50:34 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-08-01 08:50:35 - applog - INFO - Successfully writed chiller water bill to excel'
-'2024-08-01 08:50:48 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 08:50:49 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
-    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
-    raise ValueError(
-ValueError: Length mismatch: Expected 30 rows, received array of length 31
-'2024-08-01 08:53:50 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 08:53:51 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
-    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
-    raise ValueError(
-ValueError: Length mismatch: Expected 30 rows, received array of length 31
-'2024-08-01 08:54:21 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 08:54:22 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
-    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
-    raise ValueError(
-ValueError: Length mismatch: Expected 30 rows, received array of length 31
-'2024-08-01 08:59:42 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 08:59:42 - applog - ERROR - Length mismatch: Expected 30 rows, received array of length 31'
-Traceback (most recent call last):
-  File "c:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 165, in <module>
-    dayuse.set_index(daymin_s.index, inplace=True, verify_integrity=True)
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 5924, in set_index
-    raise ValueError(
-ValueError: Length mismatch: Expected 30 rows, received array of length 31
-'2024-08-01 11:06:19 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:06:20 - applog - INFO - Successfully writed hot water bill to excel'
-'2024-08-01 11:07:26 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:08:25 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:09:31 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:10:03 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:10:16 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:12:31 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:12:55 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:13:13 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:14:20 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:14:44 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:15:39 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:17:17 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:18:36 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:18:49 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:19:15 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:19:31 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:20:01 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:20:13 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:20:51 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:21:14 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:22:10 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:22:39 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:23:02 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:23:16 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:23:35 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:23:51 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:24:20 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:24:47 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:25:09 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:25:17 - applog - INFO - Successfully writed hot water bill to excel'
-'2024-08-01 11:28:21 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 11:28:21 - applog - ERROR - name 'df_lastmonth' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 215, in <module>
-    write_start_value(i, df_lastmonth[j].max())
-                         ^^^^^^^^^^^^
-NameError: name 'df_lastmonth' is not defined. Did you mean: 'last_month'?
-'2024-08-01 13:33:53 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 13:33:54 - applog - INFO - Successfully writed hot water bill to excel'
-'2024-08-01 13:42:26 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-08-01 13:42:27 - applog - INFO - Successfully writed chiller water bill to excel'
-'2024-08-01 13:57:40 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-08-01 13:57:41 - applog - INFO - Successfully writed chiller water bill to excel'
-'2024-08-01 13:57:51 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 13:57:52 - applog - INFO - Successfully wrote hot water bill to excel'
-'2024-08-01 13:57:53 - applog - ERROR - (-2147023174, 'RPC 服务器不可用。', None, None)'
-Traceback (most recent call last):
-  File "HW_bill_RCCQ.py", line 255, in <module>
-    wb = app.books.open(report_path + "_HW.xlsx")
-         ^^^^^^^^^
-  File "xlwings\main.py", line 519, in books
-  File "xlwings\_xlwindows.py", line 691, in books
-  File "xlwings\_xlwindows.py", line 199, in __getattr__
-  File "win32com\client\__init__.py", line 585, in __getattr__
-  File "win32com\client\__init__.py", line 574, in _ApplyTypes_
-pywintypes.com_error: (-2147023174, 'RPC 服务器不可用。', None, None)
-'2024-08-01 16:53:46 - applog - INFO - HW monthly report Successfully imported!'
-'2024-08-01 16:53:47 - applog - INFO - Successfully wrote hot water bill to excel'
-'2024-09-02 08:18:34 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-09-02 08:18:34 - applog - INFO - Successfully writed chiller water bill to excel'
-'2024-09-02 08:18:48 - applog - INFO - HW monthly report Successfully imported!'
-'2024-09-02 08:18:49 - applog - INFO - Successfully wrote hot water bill to excel'
-'2024-09-02 08:25:32 - applog - INFO - HW monthly report Successfully imported!'
-'2024-09-02 08:25:33 - applog - INFO - Successfully wrote hot water bill to excel'
-'2024-09-02 08:26:13 - applog - INFO - CHW monthly report Successfully imported!'
-'2024-09-02 08:26:14 - applog - INFO - Successfully writed chiller water bill to excel'
-'2024-11-01 09:17:35 - applog - ERROR - name 'path_last_month' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\HW_bill_RCCQ.py", line 114, in <module>
-    filepath_lastmonth = BASE_DIR + "\\" + path_last_month
-                                           ^^^^^^^^^^^^^^^
+  File "CHW_bill_RCCQ.py", line 123, in <module>
 NameError: name 'path_last_month' is not defined. Did you mean: 'pattern_lastMonth'?
-'2024-11-01 09:19:44 - applog - INFO - HW monthly report Successfully imported!'
-'2024-11-01 09:19:44 - applog - INFO - Successfully wrote hot water bill to excel'
-'2024-11-01 09:23:29 - applog - INFO - HW monthly report Successfully imported!'
-'2024-11-01 09:23:30 - applog - INFO - Successfully wrote hot water bill to excel'
-'2025-01-24 09:36:37 - applog - ERROR - Error occurred: Report file for 202501 not found.'
+'2025-09-02 08:16:52 - applog - ERROR - name 'path_last_month' is not defined'
 Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\Opti_by_AI.py", line 72, in <module>
-    raise FileNotFoundError(f"Report file for {current_date} not found.")
-FileNotFoundError: Report file for 202501 not found.
-'2025-01-24 09:38:29 - applog - INFO - HW monthly report Successfully imported!'
-'2025-01-24 09:38:30 - applog - INFO - Successfully wrote hot water bill to excel'
-'2025-01-24 09:41:09 - applog - INFO - HW monthly report Successfully imported!'
-'2025-01-24 09:41:09 - applog - INFO - Successfully wrote hot water bill to excel'
-'2025-01-24 09:41:20 - applog - ERROR - name 'path_last_month' is not defined'
-Traceback (most recent call last):
-  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\CHW_bill_RCCQ.py", line 123, in <module>
-    filepath_lastmonth = BASE_DIR + "\\" + path_last_month
-                                           ^^^^^^^^^^^^^^^
+  File "HW_bill_RCCQ.py", line 114, in <module>
 NameError: name 'path_last_month' is not defined. Did you mean: 'pattern_lastMonth'?
+'2025-09-02 08:19:56 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 08:19:56 - applog - ERROR - 处理 HW 报告时发生错误: 未找到 202509 的 HW 报告文件。'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\report_20250901.py", line 122, in generate_report
+    raise FileNotFoundError(f"未找到 {current_date} 的 {report_type} 报告文件。")
+FileNotFoundError: 未找到 202509 的 HW 报告文件。
+'2025-09-02 08:19:56 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 08:19:56 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 08:19:57 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 08:25:16 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 08:25:16 - applog - ERROR - 处理 HW 报告时发生错误: 未找到 202509 的 HW 报告文件。'
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\rccq_monthly_bill\report_20250901.py", line 122, in generate_report
+    raise FileNotFoundError(f"未找到 {current_date} 的 {report_type} 报告文件。")
+FileNotFoundError: 未找到 202509 的 HW 报告文件。
+'2025-09-02 08:25:16 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 08:25:17 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 08:25:17 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 08:26:21 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 08:26:21 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-02 08:26:22 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-02 08:26:22 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 08:26:22 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 08:26:23 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 08:37:35 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 08:37:36 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-02 08:37:37 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-02 08:37:37 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 08:37:37 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 08:37:38 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 08:42:00 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 08:42:01 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-02 08:42:02 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-02 08:42:02 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 08:42:02 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 08:42:03 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 08:54:14 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 08:54:14 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: HotelLZ PreHeat'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H1_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H1_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 HotelLZ PreHeat 中设置 E8=nan, E9=106.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: SvcAptLZ PreHeat'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H2_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H2_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 SvcAptLZ PreHeat 中设置 E8=nan, E9=511.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: HotelHZ HT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H3_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H3_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 HotelHZ HT 中设置 E8=nan, E9=23571106.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: HotelLZ HT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H4_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H4_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 HotelLZ HT 中设置 E8=nan, E9=2151566.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: HotelLZ MT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H5_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H5_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 HotelLZ MT 中设置 E8=nan, E9=2669020.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: SvcAptHZ HT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H6_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H6_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 SvcAptHZ HT 中设置 E8=nan, E9=9461169.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: SvcAptLZ HT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H7_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H7_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 SvcAptLZ HT 中设置 E8=nan, E9=864774.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: SvcAptLZ MT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H8_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H8_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 SvcAptLZ MT 中设置 E8=nan, E9=1048152.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: OfficeHZ MT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H9_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H9_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 OfficeHZ MT 中设置 E8=nan, E9=4852590.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: OfficeLZ MT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H10_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H10_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 OfficeLZ MT 中设置 E8=nan, E9=2026017.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: PodiumE MT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H11_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H11_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 PodiumE MT 中设置 E8=nan, E9=12887343.0'
+'2025-09-02 08:54:15 - applog - INFO - 处理工作表: PodiumW MT'
+'2025-09-02 08:54:15 - applog - INFO - QQ列: H20_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - QI列: H20_QI_9350_BTU, 在数据中: True'
+'2025-09-02 08:54:15 - applog - INFO - 在 PodiumW MT 中设置 E8=nan, E9=11666789.0'
+'2025-09-02 08:54:15 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-02 08:54:15 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 08:54:15 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: PodiumE'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D1_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D1_QI_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 PodiumE 中设置 E8=nan, E9=95865336.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: PodiumW'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D2_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D2_QI_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 PodiumW 中设置 E8=nan, E9=85175496.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: HotelHZ'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D3_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D3_QI_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 HotelHZ 中设置 E8=nan, E9=47006216.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: HotelLZ'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D4_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D4_QI_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 HotelLZ 中设置 E8=nan, E9=13291968.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: OfficeHZ'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D5_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D5_QI_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 OfficeHZ 中设置 E8=nan, E9=19200440.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: OfficeLZ'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D6_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D6_QI_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 OfficeLZ 中设置 E8=nan, E9=5114929.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: SvcAptHZ'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D7_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D7_QI_1150_1_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 SvcAptHZ 中设置 E8=nan, E9=11816114.0'
+'2025-09-02 08:54:16 - applog - INFO - 处理工作表: SvcAptLZ'
+'2025-09-02 08:54:16 - applog - INFO - QQ列: D8_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - QI列: D8_QI_1150_2_BTU, 在数据中: True'
+'2025-09-02 08:54:16 - applog - INFO - 在 SvcAptLZ 中设置 E8=nan, E9=2197426.0'
+'2025-09-02 08:54:16 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'
+'2025-09-02 09:00:10 - applog - INFO - --- 正在生成 HW 报告 ---'
+'2025-09-02 09:00:10 - applog - INFO - HW 月度报告已成功导入！'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: HotelLZ PreHeat'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H1_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H1_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 HotelLZ PreHeat 中设置 E8=106.0, E9=106.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: SvcAptLZ PreHeat'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H2_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H2_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 SvcAptLZ PreHeat 中设置 E8=511.0, E9=511.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: HotelHZ HT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H3_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H3_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 HotelHZ HT 中设置 E8=23442882.0, E9=23570958.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: HotelLZ HT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H4_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H4_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 HotelLZ HT 中设置 E8=2123024.0, E9=2151534.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: HotelLZ MT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H5_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H5_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 HotelLZ MT 中设置 E8=2669020.0, E9=2669020.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: SvcAptHZ HT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H6_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H6_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 SvcAptHZ HT 中设置 E8=9386147.0, E9=9461075.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: SvcAptLZ HT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H7_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H7_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 SvcAptLZ HT 中设置 E8=855697.0, E9=864760.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: SvcAptLZ MT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H8_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H8_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 SvcAptLZ MT 中设置 E8=1048152.0, E9=1048152.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: OfficeHZ MT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H9_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H9_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 OfficeHZ MT 中设置 E8=4852590.0, E9=4852590.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: OfficeLZ MT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H10_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H10_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 OfficeLZ MT 中设置 E8=2026017.0, E9=2026017.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: PodiumE MT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H11_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H11_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 PodiumE MT 中设置 E8=12887343.0, E9=12887343.0'
+'2025-09-02 09:00:11 - applog - INFO - 处理工作表: PodiumW MT'
+'2025-09-02 09:00:11 - applog - INFO - QQ列: H20_QQ_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - QI列: H20_QI_9350_BTU, 在数据中: True'
+'2025-09-02 09:00:11 - applog - INFO - 在 PodiumW MT 中设置 E8=11666789.0, E9=11666789.0'
+'2025-09-02 09:00:11 - applog - INFO - HW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_HW.xlsx'
+'2025-09-02 09:00:11 - applog - INFO - --- 正在生成 CHW 报告 ---'
+'2025-09-02 09:00:11 - applog - INFO - CHW 月度报告已成功导入！'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: PodiumE'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D1_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D1_QI_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 PodiumE 中设置 E8=92646656.0, E9=95865008.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: PodiumW'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D2_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D2_QI_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 PodiumW 中设置 E8=81986952.0, E9=85175224.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: HotelHZ'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D3_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D3_QI_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 HotelHZ 中设置 E8=45267400.0, E9=47004636.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: HotelLZ'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D4_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D4_QI_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 HotelLZ 中设置 E8=12911143.0, E9=13291659.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: OfficeHZ'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D5_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D5_QI_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 OfficeHZ 中设置 E8=18711972.0, E9=19200256.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: OfficeLZ'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D6_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D6_QI_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 OfficeLZ 中设置 E8=4866841.0, E9=5114834.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: SvcAptHZ'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D7_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D7_QI_1150_1_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 SvcAptHZ 中设置 E8=11358808.0, E9=11815637.0'
+'2025-09-02 09:00:12 - applog - INFO - 处理工作表: SvcAptLZ'
+'2025-09-02 09:00:12 - applog - INFO - QQ列: D8_QQ_1150_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - QI列: D8_QI_1150_2_BTU, 在数据中: True'
+'2025-09-02 09:00:12 - applog - INFO - 在 SvcAptLZ 中设置 E8=2127984.0, E9=2197383.0'
+'2025-09-02 09:00:12 - applog - INFO - CHW 报告已成功保存到 C:\Users\funny\PycharmProjects\rccq_monthly_bill\202508_CHW.xlsx'

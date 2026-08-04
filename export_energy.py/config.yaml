@@ -1,0 +1,13 @@
+mysql:
+  host: 183.66.xxx.xxx
+  port: 26360
+  user: root
+  password: xxxxx
+  database: rccqmonthlydata
+  charset: utf8mb4
+
+projects:
+  sdzx:
+    table: dailydata_sdzx
+  rccq:
+    table: dailydata_rccq

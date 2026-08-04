@@ -1,0 +1,6 @@
+mysql:
+  host: 183.66.202.50
+  port: 26360
+  user: root
+  password: 1qazXSW@
+  database: rccqmonthlydata

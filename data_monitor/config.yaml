@@ -1,0 +1,18 @@
+mysql:
+  host: 183.66.202.50
+  port: 26360
+  user: root
+  password: 1qazXSW@
+  database: rccqmonthlydata
+
+email:
+  sender: hankchen1987@163.com
+  receiver: funnyhank@live.com
+  smtp_server: smtp.163.com
+  smtp_port: 465
+  username: hankchen1987@163.com
+  password: "LSFNGCPNWBKAQJDH"
+
+check:
+  interval_minutes: 60   # 检查最近60分钟
+  expected_count: 119      # 期望有数据（比如每30分钟写一次，60分钟内应该有2条，允许有冗余）

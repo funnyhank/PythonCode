@@ -1,0 +1,16 @@
+version: 1
+formatters:
+  detailed:
+    format: "%(asctime)s - %(levelname)s - %(message)s"
+
+handlers:
+  file_handler:
+    class: logging.FileHandler
+    level: INFO
+    formatter: detailed
+    filename: "logs/cooling_data.log"
+    encoding: "utf8"
+
+root:
+  level: INFO
+  handlers: [file_handler]

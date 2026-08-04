@@ -1,0 +1,11 @@
+PyQt6-Qt6==6.11.1
+PyQt6==6.11.0
+PyQt6_sip==13.11.1
+autopep8==2.3.2
+lxml==6.1.1
+pip==26.0.1
+pycodestyle==2.14.0
+python-docx==1.2.0
+pywin32==312
+spire==0.4.2
+typing_extensions==4.16.0

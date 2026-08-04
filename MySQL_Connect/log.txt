@@ -1,0 +1,6 @@
+'2024-11-22 13:39:04 - applog - INFO - Data has been written to MySQL database.'
+'2024-11-22 14:11:08 - applog - ERROR - Worksheet named 'PlantData' not found'
+'2024-11-22 14:12:59 - applog - INFO - Old OA Data has been written to MySQL database.'
+'2024-11-22 14:27:47 - applog - ERROR - Invalid file path or buffer object type: <class 'NoneType'>'
+'2024-11-22 14:39:20 - applog - ERROR - 'DataFrame' object has no attribute 'tolist''
+'2024-11-22 14:40:36 - applog - INFO - Today's OA Data has been add to MySQL database.'

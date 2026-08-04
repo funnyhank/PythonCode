@@ -9,4 +9,3 @@ WHERE
   AND Timestamp >= %(start_date)s
   AND Timestamp <  %(end_date)s
 ORDER BY Timestamp;
-ORDER BY Timestamp;

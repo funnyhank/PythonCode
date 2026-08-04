@@ -1,0 +1,516 @@
+2025-05-26 10:33:35,196 - INFO - 连接数据库...
+2025-05-26 10:33:35,597 - INFO - 读取 370 条记录成功。
+2025-05-26 10:33:35,796 - INFO - 写入 Excel 成功：冷量累计数据_取整_20250526_1033.xlsx
+2025-05-27 08:58:19,012 - INFO - 开始连接数据库...
+2025-05-27 08:58:19,550 - INFO - 成功读取 458 条记录。
+2025-05-27 08:58:19,863 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250527_0858.xlsx
+2025-05-27 09:01:12,767 - INFO - 开始连接数据库...
+2025-05-27 09:01:13,155 - INFO - 成功读取 1448 条记录。
+2025-05-27 09:01:13,166 - ERROR - 程序运行失败: "None of [Index(['一期累计冷量', '二期累计冷量'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data.py", line 54, in <module>
+    pivot_df[['一期累计冷量', '二期累计冷量']] = pivot_df[['一期累计冷量', '二期累计冷量']].round(0).astype('Int64')
+                                                 ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['一期累计冷量', '二期累计冷量'], dtype='object')] are in the [columns]"
+2025-05-27 09:01:54,952 - INFO - 开始连接数据库...
+2025-05-27 09:01:55,331 - INFO - 成功读取 0 条记录。
+2025-05-27 09:01:55,343 - ERROR - 程序运行失败: "None of [Index(['一期累计冷量', '二期累计冷量'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data.py", line 54, in <module>
+    pivot_df[['一期累计冷量', '二期累计冷量']] = pivot_df[['一期累计冷量', '二期累计冷量']].round(0).astype('Int64')
+                                                 ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6249, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['一期累计冷量', '二期累计冷量'], dtype='object')] are in the [columns]"
+2025-06-01 09:32:35,187 - INFO - 开始连接数据库...
+2025-06-01 09:32:43,453 - INFO - 成功读取 902 条记录。
+2025-06-01 09:32:43,702 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250601_0932.xlsx
+2025-07-01 08:14:49,985 - INFO - 开始连接数据库...
+2025-07-01 08:14:50,695 - INFO - 成功读取 2880 条记录。
+2025-07-01 08:14:51,066 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250701_0814.xlsx
+2025-07-01 13:54:22,688 - INFO - 读取数据成功，记录数：2880
+2025-07-01 13:54:23,054 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量时点数据_20250701_1354.xlsx
+2025-07-01 14:19:20,053 - INFO - 读取配置文件...
+2025-07-01 14:19:20,055 - INFO - 查询时间范围：2025-06-01 ~ 2025-07-01
+2025-07-01 14:19:20,055 - INFO - 连接数据库并执行查询...
+2025-07-01 14:19:20,660 - INFO - 成功读取 240 条记录。
+2025-07-01 14:19:20,662 - INFO - 整理数据...
+2025-07-01 14:19:20,669 - INFO - 打开模板文件...
+2025-07-01 14:19:20,696 - INFO - 写入数据到模板...
+2025-07-01 14:19:20,771 - INFO - ✅ 写入完成，文件保存为：C:\Users\funny\PycharmProjects\shudu_bill\Shudu Metering Report filled.xlsx
+2025-08-01 06:51:14,170 - INFO - 读取数据成功，记录数：2828
+2025-08-01 06:51:14,558 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量时点数据_20250801_0651.xlsx
+2025-08-01 06:52:47,893 - INFO - 开始连接数据库...
+2025-08-01 06:52:48,937 - INFO - 成功读取 2828 条记录。
+2025-08-01 06:52:49,586 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250801_0652.xlsx
+2025-08-01 06:53:34,703 - INFO - 读取配置文件...
+2025-08-01 06:53:34,704 - INFO - 查询时间范围：2025-07-01 ~ 2025-08-01
+2025-08-01 06:53:34,704 - INFO - 连接数据库并执行查询...
+2025-08-01 06:53:35,534 - INFO - 成功读取 236 条记录。
+2025-08-01 06:53:35,539 - INFO - 整理数据...
+2025-08-01 06:53:35,554 - INFO - 打开模板文件...
+2025-08-01 06:53:35,643 - INFO - 写入数据到模板...
+2025-08-01 06:53:35,797 - INFO - ✅ 写入完成，文件保存为：C:\Users\funny\PycharmProjects\shudu_bill\Shudu Metering Report filled.xlsx
+2025-08-05 08:20:52,401 - INFO - 读取配置文件...
+2025-08-05 08:20:52,410 - INFO - 查询时间范围：2025-07-01 ~ 2025-08-01
+2025-08-05 08:20:52,412 - INFO - 连接数据库并执行查询...
+2025-08-05 08:20:53,203 - INFO - 成功读取 944 条记录。
+2025-08-05 08:20:53,207 - INFO - 整理数据...
+2025-08-05 08:20:53,217 - INFO - 打开模板文件...
+2025-08-05 08:20:53,255 - INFO - 写入数据到模板...
+2025-08-05 08:20:53,331 - INFO - ✅ 写入完成，文件保存为：C:\Users\funny\PycharmProjects\shudu_bill\Shudu Metering Report filled.xlsx
+2025-08-05 08:23:31,978 - INFO - 读取数据成功，记录数：11312
+2025-08-05 08:23:32,199 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量时点数据_20250805_0823.xlsx
+2025-08-05 08:29:17,967 - INFO - 开始连接数据库...
+2025-08-05 08:29:18,770 - INFO - 成功读取 2828 条记录。
+2025-08-05 08:29:18,787 - ERROR - 程序运行失败: "['1期供水温度', '1期回水温度', '1期流量', '2期供水温度', '2期回水温度', '2期流量'] not in index"
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data.py", line 60, in <module>
+    pivot_df[['一期累计冷量', '二期累计冷量','1期供水温度','1期回水温度','1期流量','2期供水温度','2期回水温度','2期流量']] = pivot_df[['一期累计冷量', '二期累计冷量','1期供水温度','1期回水温度','1期流量','2期供水温度','2期回水温度','2期流量']].round(0).astype('Int64')
+                                                                                                                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['1期供水温度', '1期回水温度', '1期流量', '2期供水温度', '2期回水温度', '2期流量'] not in index"
+2025-08-05 08:30:37,768 - INFO - 开始连接数据库...
+2025-08-05 08:30:38,566 - INFO - 成功读取 2828 条记录。
+2025-08-05 08:30:38,572 - ERROR - 程序运行失败: "['1期供水温度', '1期回水温度', '1期流量', '2期供水温度', '2期回水温度', '2期流量'] not in index"
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data.py", line 60, in <module>
+    pivot_df[['一期累计冷量', '二期累计冷量','1期供水温度','1期回水温度','1期流量','2期供水温度','2期回水温度','2期流量']] = pivot_df[['一期累计冷量', '二期累计冷量','1期供水温度','1期回水温度','1期流量','2期供水温度','2期回水温度','2期流量']].round(0).astype('Int64')
+                                                                                                                             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\frame.py", line 4108, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\core\indexes\base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['1期供水温度', '1期回水温度', '1期流量', '2期供水温度', '2期回水温度', '2期流量'] not in index"
+2025-08-05 08:33:28,292 - INFO - 开始连接数据库...
+2025-08-05 08:33:29,213 - INFO - 成功读取 11312 条记录。
+2025-08-05 08:33:29,517 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250805_0833.xlsx
+2025-08-05 08:42:06,157 - INFO - 开始连接数据库...
+2025-08-05 08:42:07,044 - INFO - 成功读取 11312 条记录。
+2025-08-05 08:42:07,325 - INFO - 写入 Excel 成功：C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250805_0842.xlsx
+2025-08-05 08:46:04,162 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-05 08:46:04,162 - INFO - 开始连接数据库...
+2025-08-05 08:46:05,084 - INFO - 成功从数据库读取 11312 条记录。
+2025-08-05 08:46:05,094 - INFO - 数据处理完成，已对指定列取整。
+2025-08-05 08:46:05,392 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250805_0846.xlsx
+2025-08-05 09:00:26,655 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-05 09:00:26,668 - INFO - 开始连接数据库...
+2025-08-05 09:00:27,684 - INFO - 成功从数据库读取 11312 条记录。
+2025-08-05 09:00:27,727 - INFO - 数据处理完成，已对指定列取整。
+2025-08-05 09:00:28,523 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250805_0900.xlsx
+2025-08-05 09:00:28,523 - INFO - 开始绘制夜间流量趋势图...
+2025-08-05 09:00:28,973 - INFO - 折线图已成功保存为图片: C:\Users\funny\PycharmProjects\shudu_bill\夜间冷却趋势图_20250805_0900.png
+2025-08-05 09:36:10,716 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-05 09:36:10,717 - INFO - 开始连接数据库...
+2025-08-05 09:36:10,785 - ERROR - 程序运行失败，请检查错误日志。
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 2674, in execute
+    cur.execute(sql, *args)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 563, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 825, in _read_query_result
+    result.read()
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 1199, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 775, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--查询当月的数据\nSELECT\n  Tag,\n  Value,\n  Timestamp\nFROM\n  dailydata_sdzx' at line 10")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data.py", line 62, in main
+    df = pd.read_sql(sql_query, conn)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 706, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 2738, in read_query
+    cursor = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 2686, in execute
+    raise ex from exc
+pandas.errors.DatabaseError: Execution failed on sql '-- SELECT Tag, Value, Timestamp
+-- FROM dailydata_sdzx
+-- WHERE
+--   Tag IN ('1期累计冷量', '2期累计冷量','1期供水温度','1期回水温度','1期流量','2期供水温度','2期回水温度','2期流量')
+-- --     Tag IN ('1期热量', '2期热量')
+--   AND Timestamp >= DATE_FORMAT(DATE_SUB(CURDATE(), INTERVAL 1 MONTH), '%Y-%m-01')
+--   AND Timestamp <  DATE_FORMAT(CURDATE(), '%Y-%m-01')
+-- ORDER BY Timestamp;
+
+--查询当月的数据
+SELECT
+  Tag,
+  Value,
+  Timestamp
+FROM
+  dailydata_sdzx
+WHERE
+  Timestamp >= DATE_FORMAT(CURDATE(), '%Y-%m-01')
+  AND Timestamp <= CURDATE()
+ORDER BY
+  Timestamp;': (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--查询当月的数据\nSELECT\n  Tag,\n  Value,\n  Timestamp\nFROM\n  dailydata_sdzx' at line 10")
+2025-08-05 09:37:56,390 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-05 09:37:56,391 - INFO - 开始连接数据库...
+2025-08-05 09:37:57,515 - INFO - 成功从数据库读取 19873 条记录。
+2025-08-05 09:37:58,455 - INFO - 数据处理完成，已对指定列取整。
+2025-08-05 09:37:59,569 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250805_0937.xlsx
+2025-08-05 09:39:01,315 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-05 09:39:01,316 - INFO - 开始连接数据库...
+2025-08-05 09:39:02,147 - INFO - 成功从数据库读取 1336 条记录。
+2025-08-05 09:39:02,156 - INFO - 数据处理完成，已对指定列取整。
+2025-08-05 09:39:02,413 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_取整_20250805_0939.xlsx
+2025-08-07 14:43:10,290 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 14:43:10,297 - INFO - 开始连接数据库...
+2025-08-07 14:43:11,228 - INFO - 成功从数据库读取 11312 条记录。
+2025-08-07 14:43:11,247 - INFO - 数据处理完成，已对指定列取整。
+2025-08-07 14:43:11,961 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20250807_1443.xlsx
+2025-08-07 14:47:11,379 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 14:47:11,380 - INFO - 开始连接数据库...
+2025-08-07 14:47:12,341 - INFO - 成功从数据库读取 11312 条记录。
+2025-08-07 14:47:12,364 - INFO - 数据处理完成，已对指定列取整。
+2025-08-07 14:47:12,808 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_202508.xlsx
+2025-08-07 14:51:46,410 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 14:51:46,411 - INFO - 开始连接数据库...
+2025-08-07 14:51:47,371 - INFO - 成功从数据库读取 11312 条记录。
+2025-08-07 14:51:47,390 - INFO - 数据处理完成，已对指定列取整。
+2025-08-07 14:51:47,715 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20250807_145147.xlsx
+2025-08-07 15:04:32,089 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 15:04:32,090 - INFO - 开始连接数据库...
+2025-08-07 15:04:32,221 - ERROR - 程序运行失败，请检查错误日志。
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 649, in connect
+    sock = socket.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 828, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11003] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3295, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 447, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 711, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 388, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 673, in __init__
+    self.__connect()
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 899, in __connect
+    with util.safe_reraise():
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 895, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 626, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 361, in __init__
+    self.connect()
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 716, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '@183.66.202.50' ([Errno 11003] getaddrinfo failed)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data_byGoogle.py", line 73, in main
+    with engine.connect() as conn:
+         ^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3271, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 145, in __init__
+    Connection._handle_dbapi_exception_noconnection(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2434, in _handle_dbapi_exception_noconnection
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 143, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 3295, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 447, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 1264, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 711, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    with util.safe_reraise():
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\impl.py", line 175, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 388, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 673, in __init__
+    self.__connect()
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 899, in __connect
+    with util.safe_reraise():
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 224, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\pool\base.py", line 895, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 646, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 626, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)  # type: ignore[no-any-return]  # NOQA: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 361, in __init__
+    self.connect()
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\connections.py", line 716, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '@183.66.202.50' ([Errno 11003] getaddrinfo failed)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-07 15:11:00,451 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 15:11:00,451 - INFO - 开始连接数据库...
+2025-08-07 15:11:00,586 - ERROR - 程序运行失败，请检查错误日志。
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data_byGoogle.py", line 77, in main
+    df = pd.read_sql(sql_query, conn)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 734, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1659, in execute
+    return self.con.exec_driver_sql(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1773, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1840, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1980, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1961, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 944, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 151, in execute
+    query = self.mogrify(query, args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 129, in mogrify
+    query = query % self._escape_args(args, conn)
+            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: unsupported format character 'Y' (0x59) at index 238
+2025-08-07 15:13:36,227 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 15:13:36,227 - INFO - 开始连接数据库...
+2025-08-07 15:13:36,325 - ERROR - 程序运行失败，请检查错误日志。
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data_byGoogle.py", line 80, in main
+    df = pd.read_sql(sql_query, conn)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 734, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1659, in execute
+    return self.con.exec_driver_sql(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1773, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1840, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1980, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1961, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 944, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 151, in execute
+    query = self.mogrify(query, args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 129, in mogrify
+    query = query % self._escape_args(args, conn)
+            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: unsupported format character 'Y' (0x59) at index 238
+2025-08-07 15:15:39,476 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 15:15:39,480 - INFO - 开始连接数据库...
+2025-08-07 15:15:39,571 - ERROR - 程序运行失败，请检查错误日志。
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data_byGoogle.py", line 80, in main
+    df = pd.read_sql(sql_query, conn)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 734, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1659, in execute
+    return self.con.exec_driver_sql(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1773, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1840, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1980, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1961, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 944, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 151, in execute
+    query = self.mogrify(query, args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 129, in mogrify
+    query = query % self._escape_args(args, conn)
+            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: unsupported format character 'Y' (0x59) at index 542
+2025-08-07 15:17:18,926 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 15:17:18,926 - INFO - 开始连接数据库...
+2025-08-07 15:17:19,015 - ERROR - 程序运行失败，请检查错误日志。
+Traceback (most recent call last):
+  File "C:\Users\funny\PycharmProjects\shudu_bill\export_cooling_data_byGoogle.py", line 80, in main
+    df = pd.read_sql(sql_query, conn)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 734, in read_sql
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pandas\io\sql.py", line 1659, in execute
+    return self.con.exec_driver_sql(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1773, in exec_driver_sql
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1840, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1980, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1961, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 944, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 151, in execute
+    query = self.mogrify(query, args)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\funny\PycharmProjects\shudu_bill\.venv\Lib\site-packages\pymysql\cursors.py", line 129, in mogrify
+    query = query % self._escape_args(args, conn)
+            ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ValueError: unsupported format character 'Y' (0x59) at index 238
+2025-08-07 15:19:46,079 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-07 15:19:46,079 - INFO - 开始连接数据库...
+2025-08-07 15:19:47,064 - INFO - 成功从数据库读取 11312 条记录。
+2025-08-07 15:19:47,086 - INFO - 数据处理完成，已对指定列取整。
+2025-08-07 15:19:47,438 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20250807_151947.xlsx
+2025-08-28 09:29:08,643 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-08-28 09:29:08,644 - INFO - 开始连接数据库...
+2025-08-28 09:29:09,787 - INFO - 成功从数据库读取 10160 条记录。
+2025-08-28 09:29:09,798 - INFO - 数据处理完成，已对指定列取整。
+2025-08-28 09:29:10,219 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20250828_092909.xlsx
+2025-09-01 11:42:42,189 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-09-01 11:42:42,196 - INFO - 开始连接数据库...
+2025-09-01 11:42:43,502 - INFO - 成功从数据库读取 11688 条记录。
+2025-09-01 11:42:43,541 - INFO - 数据处理完成，已对指定列取整。
+2025-09-01 11:42:43,904 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20250901_114243.xlsx
+2025-09-28 08:44:18,495 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-09-28 08:44:18,498 - INFO - 开始连接数据库...
+2025-09-28 08:44:20,313 - INFO - 成功从数据库读取 10376 条记录。
+2025-09-28 08:44:20,332 - INFO - 数据处理完成，已对指定列取整。
+2025-09-28 08:44:20,752 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20250928_084420.xlsx
+2025-10-09 08:45:16,862 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-10-09 08:45:16,862 - INFO - 开始连接数据库...
+2025-10-09 08:45:23,819 - INFO - 成功从数据库读取 11520 条记录。
+2025-10-09 08:45:23,843 - INFO - 数据处理完成，已对指定列取整。
+2025-10-09 08:45:24,227 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20251009_084523.xlsx
+2025-12-01 08:49:31,964 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-12-01 08:49:31,975 - INFO - 开始连接数据库...
+2025-12-01 08:49:34,693 - INFO - 成功从数据库读取 11496 条记录。
+2025-12-01 08:49:34,727 - INFO - 数据处理完成，已对指定列取整。
+2025-12-01 08:49:35,362 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20251201_084934.xlsx
+2025-12-01 08:53:27,210 - INFO - 正在读取 SQL 文件: C:\Users\funny\PycharmProjects\shudu_bill\query\cooling_data.sql
+2025-12-01 08:53:27,210 - INFO - 开始连接数据库...
+2025-12-01 08:53:29,224 - INFO - 成功从数据库读取 11496 条记录。
+2025-12-01 08:53:29,250 - INFO - 数据处理完成，已对指定列取整。
+2025-12-01 08:53:29,623 - INFO - 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\shudu_bill\冷量累计数据_20251201_085329.xlsx

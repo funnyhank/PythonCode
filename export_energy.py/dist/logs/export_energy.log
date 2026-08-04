@@ -1,0 +1,67 @@
+2026-01-04 11:24:37 | INFO     | export | 程序启动
+2026-01-04 11:24:37 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 11:26:37 | INFO     | export | 程序启动
+2026-01-04 11:26:37 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 11:26:37 | INFO     | export | 项目: sdzx
+2026-01-04 11:26:37 | INFO     | export | 类型: heating
+2026-01-04 11:26:37 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 11:28:14 | INFO     | export | 程序启动
+2026-01-04 11:28:14 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 11:28:14 | INFO     | export | 项目: sdzx
+2026-01-04 11:28:14 | INFO     | export | 类型: heating
+2026-01-04 11:28:14 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 11:28:16 | INFO     | export | 查询完成，记录数: 2974
+2026-01-04 13:37:12 | INFO     | export | 程序启动
+2026-01-04 13:37:12 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:37:12 | INFO     | export | 项目: sdzx
+2026-01-04 13:37:12 | INFO     | export | 类型: heating
+2026-01-04 13:37:12 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:37:14 | INFO     | export | 查询完成，记录数: 2974
+2026-01-04 13:37:14 | INFO     | export | 导出完成: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_heating_2025-12.xlsx
+2026-01-04 13:38:26 | INFO     | export | 程序启动
+2026-01-04 13:38:26 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:38:26 | INFO     | export | 项目: sdzx
+2026-01-04 13:38:26 | INFO     | export | 类型: cooling
+2026-01-04 13:38:26 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:39:38 | INFO     | export | 程序启动
+2026-01-04 13:39:38 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:39:38 | INFO     | export | 项目: sdzx
+2026-01-04 13:39:38 | INFO     | export | 类型: cooling
+2026-01-04 13:39:38 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:39:40 | INFO     | export | 查询完成，记录数: 11896
+2026-01-04 13:39:40 | INFO     | export | 导出完成: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_cooling_2025-12.xlsx
+2026-01-04 13:47:46 | INFO     | export | 程序启动
+2026-01-04 13:47:46 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:47:46 | INFO     | export | 项目: sdzx
+2026-01-04 13:47:46 | INFO     | export | 类型: cooling
+2026-01-04 13:47:46 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:47:48 | INFO     | export | 查询完成，记录数: 11896
+2026-01-04 13:47:48 | INFO     | export | 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_cooling_20260104_134748.xlsx
+2026-01-04 13:48:32 | INFO     | export | 程序启动
+2026-01-04 13:48:32 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:48:32 | INFO     | export | 项目: sdzx
+2026-01-04 13:48:32 | INFO     | export | 类型: heating
+2026-01-04 13:48:32 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:48:34 | INFO     | export | 查询完成，记录数: 2974
+2026-01-04 13:48:34 | INFO     | export | 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_heating_20260104_134834.xlsx
+2026-01-04 13:49:25 | INFO     | export | 程序启动
+2026-01-04 13:49:25 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:49:25 | INFO     | export | 项目: sdzx
+2026-01-04 13:49:25 | INFO     | export | 类型: heating
+2026-01-04 13:49:25 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:49:27 | INFO     | export | 查询完成，记录数: 11896
+2026-01-04 13:49:27 | INFO     | export | 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_heating_20260104_134927.xlsx
+2026-01-04 13:53:10 | INFO     | export | 程序启动
+2026-01-04 13:53:10 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:53:10 | INFO     | export | 项目: sdzx
+2026-01-04 13:53:10 | INFO     | export | 类型: heating
+2026-01-04 13:53:10 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:53:12 | INFO     | export | 查询完成，记录数: 11896
+2026-01-04 13:53:12 | INFO     | export | 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_heating_20260104_135312.xlsx
+2026-01-04 13:57:25 | INFO     | export | 程序启动
+2026-01-04 13:57:25 | INFO     | export | 运行目录: C:\Users\funny\PycharmProjects\export_energy.py\dist
+2026-01-04 13:57:25 | INFO     | export | 项目: sdzx
+2026-01-04 13:57:25 | INFO     | export | 类型: heating
+2026-01-04 13:57:25 | INFO     | export | 时间范围: 2025-12-01 ~ 2026-01-01
+2026-01-04 13:57:27 | INFO     | export | 查询完成，记录数: 11896
+2026-01-04 13:57:27 | INFO     | export | 数据已成功写入 Excel 文件: C:\Users\funny\PycharmProjects\export_energy.py\dist\sdzx_heating_20260104_135727.xlsx

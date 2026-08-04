@@ -1,0 +1,15 @@
+database:
+  host: 183.66.202.50
+  port: 26360
+  user: root
+  password: 1qazXSW@
+  database: rccqmonthlydata
+
+mail:
+  from: hankchen1987@163.com
+  to: ["funnyhank@live.com", "chenhua@spgroup.com.sg"]
+  smtp_server: smtp.163.com
+  smtp_port: 465
+  username: hankchen1987@163.com
+  password: "LSFNGCPNWBKAQJDH"
+  use_tls: true
